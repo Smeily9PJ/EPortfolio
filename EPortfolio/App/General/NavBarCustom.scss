@@ -1,0 +1,134 @@
+﻿@import 'Variables';
+
+/* tab color */
+.menu-button, .menu-button-element {
+    display: none;
+}
+
+.btn {
+    background-color: $text_color_hover;
+    border-color: $text_color_hover;
+
+    &:hover {
+        border-color: $background_color_hover;
+    }
+}
+
+.nav-tabs > li > a {
+    background-color: $background_color_hover;
+    border: 1px solid $border_color !important;
+    // border-bottom:none !important ;
+    color: $text_color;
+     box-shadow: inset 0px 5px 15px 0px $border_color;
+}
+
+/* active tab color */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: $text_color;
+    background-color: $background_color_body;
+    border-color: $border_color;
+    border-bottom: none !important;
+     box-shadow: inset 0px 10px 20px 0px $background_color_hover;
+}
+
+/* hover tab color */
+.nav-tabs > li > a:hover {
+    border-color: $border_color;
+    background-color: $border_color;
+}
+
+a {
+    color: $text_color;
+
+    &:hover {
+        color: $border_color;
+    }
+}
+
+.nav > li > a {
+    padding: 2px 15px;
+}
+
+.custom-bar {
+    margin-top: -27px;
+
+    a {
+        padding-top: 10px;
+    }
+
+    & * {
+        height: 25px !important;
+        padding-top: 2px;
+        //border-top-left-radius: 50px !important;
+        //border-top-right-radius: 50px !important;
+    }
+}
+
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom: none !important;
+    border-color: $border_color;
+}
+
+
+// Pour les écrans trop petits pour afficher la page "normalement"
+@media all and (max-width:770px) {
+    .row {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .menu-button {
+        display: block !important;
+        width: 100%;
+        height: 30px;
+        background-color: $border_color;
+
+        &:hover {
+            .glyphicon {
+                color: $text_color_hover;
+            }
+
+            cursor: pointer;
+        }
+
+        & > * {
+            width: 20px;
+            margin: auto;
+        }
+
+        .glyphicon {
+            color: $text_color;
+            font-size: x-large;
+            text-align: center;
+
+            &:hover {
+                color: $text_color_hover;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .menu-onglet {
+        display: none !important;
+    }
+
+    .menu-button-element {
+        display: block;
+        width: 100%;
+        height: 30px;
+        margin: 2px;
+        padding: 5px;
+        background-color: $border_color;
+        position: relative;
+        font-size: large;
+
+        &:hover {
+            cursor: pointer;
+            background-color: $background_color_hover;
+
+            a {
+                color: $text_color_hover;
+            }
+        }
+    }
+}

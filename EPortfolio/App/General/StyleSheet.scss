@@ -1,0 +1,208 @@
+﻿@import 'Variables';
+
+@font-face {
+    font-family: 'Lamina';
+    src: url('../../../../fonts/PolenticalNeonRegular.ttf');
+}
+
+@font-face {
+    font-family: 'Japane';
+    src: url('../../../../fonts/Japaneseb.ttf');
+}
+
+/* The animation code */
+@keyframes show {
+    from {
+        padding-top: 30px;
+        padding-right: 40px;
+        font-size: 38px;
+    }
+
+    to {
+        padding-top: 28px;
+        padding-right: 38px;
+        font-size: 40px;
+    }
+}
+
+@keyframes rotation-lampe {
+    from {
+        -webkit-transform: rotateY(0);
+    }
+
+    to {
+        -webkit-transform: rotateY(-360deg);
+    }
+}
+
+@keyframes transition-menu-in {
+    0% {
+        opacity: .3;
+        -webkit-transform: translateY(-100%) rotateX(90deg);
+    }
+
+    50% {
+        -webkit-animation-timing-function: ease-out;
+        -webkit-transform: translateY(-50%) translateZ(-200px) rotateX(45deg);
+    }
+}
+
+@keyframes transition-menu-out {
+    50% {
+        -webkit-animation-timing-function: ease-out;
+        -webkit-transform: translateY(50%) translateZ(-200px) rotateX(-45deg);
+    }
+
+    100% {
+        opacity: .3;
+        -webkit-transform: translateY(100%) rotateX(-90deg);
+    }
+}
+
+/* The element to apply the animation to */
+.i-m-here {
+    animation-name: show;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.do-a-roll {
+    animation-name: show;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+/*.main-content.ng-leave {
+    transform-origin: 50% 0%;
+    animation: transition-menu-out .6s both ease-in;
+}*/
+
+.main-content.ng-enter {
+    transform-origin: 50% 100%;
+    animation: transition-menu-in .6s both ease-in;
+}
+
+body {
+    margin-bottom: 100px;
+    font-family: 'Arial';
+    font-size: 15px;
+    background-color: $background_color;
+    color: $text_color;
+    /* Before menu, bandeau */
+    .header {
+        & > div {
+            display: inline-table;
+        }
+
+        .lampe {
+            float: right;
+            font-size: 38px;
+            width: 100px;
+            height: 100px;
+            margin: auto;
+        }
+
+        .page-header {
+            font-family: 'Japane';
+            margin-left: 10px;
+            border-bottom: none;
+            margin-top: 5px;
+
+            small {
+                color: $text_color_hover;
+            }
+        }
+    }
+
+
+
+    .version {
+        float: right;
+        padding-right: 10px;
+    }
+
+    .body {
+        border: 1px solid $border_color;
+        padding-bottom: $height_header/2;
+        background-color: $background_color_body;
+    }
+
+    main {
+        overflow: hidden;
+    }
+
+    .main-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    hr {
+        border: solid 2px $border_color;
+        border-radius: 10px;
+    }
+
+    .progress-bar {
+        background-color: $text_color_hover !important;
+    }
+
+    a:hover {
+        color: $text_color_hover;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    a:focus {
+        color: $text_color;
+        text-decoration: none;
+    }
+}
+
+/* Boutons fixes */
+.glyphicon-envelope, .glyphicon-list {
+    margin-right: 10px;
+}
+
+.glyphicon-list {
+    top: -23px;
+}
+
+.button-fixe, .button-fixe:focus {
+    z-index: 999;
+    font-size: large;
+    font-weight: bold;
+    position: fixed;
+    bottom: 5%;
+    background-color: $background_color_hover;
+    border-color: $text_color;
+    color: $text_color;
+
+    &:hover {
+        color: $text_color_hover;
+        background-color: $background_color_body;
+        border-color: $text_color_hover;
+    }
+}
+
+.button-contact {
+    width: 180px;
+    height: 40px;
+    right: 0px;
+    margin-right: -10px;
+    padding-left: 0px;
+}
+
+.button-matrice {
+    width: 170px;
+    height: 90px;
+    margin-left: -8px;
+    text-align: left;
+
+    .marge {
+        min-height: 20px;
+    }
+
+    div {
+        display: inline-block;
+    }
+}

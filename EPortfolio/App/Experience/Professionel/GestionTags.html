@@ -1,0 +1,50 @@
+﻿<div class="panel-group" id="accordionPGestionTags" aria-multiselectable="false" role="tablist">
+    <div class="panel panel-default">
+        <div class="panel-heading" id="headingPGestionTags" role="tab" ng-click="GoTo('PGestionTags')">
+            <h2 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordionPGestionTags"
+                   expanded="true" data-target="#collapsePGestionTags" aria-controls="collapsePGestionTags">
+                    2014 - Gestion des Tags
+                </a>
+            </h2>
+        </div>
+        <div id="collapsePGestionTags" aria-labelledby="headingPGestionTags" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div>
+                    <h3>{titre}</h3>
+                    {titre}
+                </div>
+                <hr />
+                <div>
+                    <h3>{titre}</h3>
+                    {titre}
+                </div>
+                <hr />
+                <div>
+                    <h3>{titre}</h3>
+                    {titre}
+                </div>
+                <hr />
+                <div>
+                    <h3>{titre}</h3>
+                    {titre}
+                </div>
+                <hr />
+                <div>
+                    <h3>Les compétences liées</h3>
+                    <br />
+                    <h4>Les compétences humaines</h4>
+                    <ul>
+                        <li><a ng-click="GoCompetenceHumaine('Autonomie')">Autonomie</a></li>
+                        <li><a ng-click="GoCompetenceHumaine('Curiosite')">Curiosité</a></li>
+                        <li><a ng-click="GoCompetenceHumaine('Serieux')">Sérieux</a></li>
+                    </ul>
+                    <h4>Les compétences techniques</h4>
+                    <ul>
+                        <li><a ng-click="GoCompetenceTechnique('Documentation')">Documentation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+﻿
+/* Colors */
+$main_color : rgb(59, 59, 59);
+$secondary_color : rgb(182, 103, 191);
+$text_color : rgb(255, 255, 255);
+
+$background_color : $main_color;
+$background_color_body : darken($main_color, 7%);
+$border_color : darken($secondary_color, 50%);
+$background_color_hover: darken($secondary_color, 45%);
+$text_color_hover : $secondary_color;
+
+/* Matrice color */
+$matrice_green : rgb(63, 83, 63);
+$matrice_red : rgb(112, 82, 84);
+
+/* Tailles */
+$height_header : 80px;
+$padding_text : 10px;

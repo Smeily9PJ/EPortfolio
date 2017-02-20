@@ -1,0 +1,23 @@
+﻿<div class="contact_page" ng-controller="ContactController">
+    <h1>Contact</h1>
+    <div class="contenu">
+        <div class="text"> Pour m'envoyer un mail, veuillez remplir le formulaire ci-dessous puis cliquez sur envoyer.</div>
+        <div class="formulaire">
+           <form>
+                <div class="row">
+                    <div class="col-md-2">
+                        <label for="Name">Nom Prénom : </label>
+                        <label for="Mail">Mail : </label>
+                        <label for="summernote">Corps du mail : </label>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="Name" placeholder="Nom Prénom" ng-model="Nom">
+                        <input type="email" class="form-control" id="Mail" placeholder="Mail" ng-model="Mail">
+                        <textarea class="form-control" rows="5" ng-model="Corp"></textarea>
+                        <button type="submit" ng-click="SendMail()" class="btn btn-primary">Envoyer</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

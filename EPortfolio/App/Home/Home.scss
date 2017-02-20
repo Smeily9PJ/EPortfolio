@@ -1,0 +1,17 @@
+﻿@import '../General/Variables.scss';
+
+.home_page {
+    .glyphicon-road {
+        font-size: xx-large;
+        margin: 3px;
+    }
+    .description {
+        padding-top: $padding_text;
+        padding-bottom: $padding_text;
+    }
+
+    .conseil {
+        padding-top: $padding_text+20;
+        padding-bottom: $padding_text;
+    }
+}

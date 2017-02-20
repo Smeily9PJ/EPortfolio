@@ -1,0 +1,10 @@
+packages/*
+.vs/*
+EPortfolio/CSS/.sass-cache/*
+images/*
+EPortfolio/node_modules/*
+EPortfolio//App/Generate/*
+EPortfolio/node_modules/*
+EPortfolio/App/Generate/Css/*
+EPortfolio/bin/*
+EPortfolio/obj/*

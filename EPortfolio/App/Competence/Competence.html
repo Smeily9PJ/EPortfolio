@@ -1,0 +1,38 @@
+﻿<div class="competence_page" ng-controller="CompetenceController">
+    <div class="row title">
+        <div class="col-md-2">
+            <h1>Compétences</h1>
+        </div>
+        <div class="col-md-4 checkbox checkbox-slider--b toggle">
+            <label>
+                <span>Humaines</span><input type="checkbox" ng-model="IsTechnique"><span>Techniques</span>
+            </label>
+        </div>
+    </div>
+    <p class="en-tete">Cliquer sur un libellé pour faire apparaitre le détail d'une compétence.</p>
+
+    <div class="contenu">
+        <div ng-if="!IsTechnique">
+            <div ng-include="'App/Competence/Humaine/Adaptabilite.html'"></div>
+            <div ng-include="'App/Competence/Humaine/Autonomie.html'"></div>
+            <div ng-include="'App/Competence/Humaine/Curiosite.html'"></div>
+            <div ng-include="'App/Competence/Humaine/Patience.html'"></div>
+            <div ng-include="'App/Competence/Humaine/Serieux.html'"></div>
+            <div ng-include="'App/Competence/Humaine/Sociabilite.html'"></div>
+        </div>
+        <div ng-if="IsTechnique">
+            <div ng-include="'App/Competence/Technique/AngularJS.html'"></div>
+            <div ng-include="'App/Competence/Technique/BDD.html'"></div>
+            <div ng-include="'App/Competence/Technique/Chiffrage.html'"></div>
+            <div ng-include="'App/Competence/Technique/CSharp.html'"></div>
+            <div ng-include="'App/Competence/Technique/CSS.html'"></div>
+            <div ng-include="'App/Competence/Technique/Documentation.html'"></div>
+            <div ng-include="'App/Competence/Technique/HTML.html'"></div>
+            <div ng-include="'App/Competence/Technique/JsTs.html'"></div>
+            <div ng-include="'App/Competence/Technique/Log4Net.html'"></div>
+            <div ng-include="'App/Competence/Technique/MethodesAGILE.html'"></div>
+            <div ng-include="'App/Competence/Technique/PlanDeTests.html'"></div>
+            <div ng-include="'App/Competence/Technique/WebApi.html'"></div>
+        </div>        
+    </div>
+</div>

@@ -1,0 +1,41 @@
+﻿@import '../General/Variables.scss';
+
+.experience_page {
+    $marge-toggle : 280px;
+
+    .radio label, .checkbox label {
+        padding-left: 32px;
+    }
+
+    .toggle {
+        padding-top: $padding_text*2;
+        padding-left: 130px;
+        width: 500px;
+
+        span {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+
+    .radio label, .checkbox label {
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .checkbox-slider--b input + span:before {
+        margin-left: $marge-toggle;
+    }
+
+    .checkbox-slider--b input:checked + span:after,
+    .checkbox-slider--b input:checked + span:after {
+        margin-top: $padding_text*2;
+        margin-left: $marge-toggle+20px;
+    }
+
+    .checkbox-slider--b input + span:after,
+    .checkbox-slider--b input + span:after {
+        margin-top: $padding_text*2;
+        margin-left: $marge-toggle;
+    }
+}

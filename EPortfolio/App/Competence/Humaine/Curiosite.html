@@ -1,0 +1,56 @@
+﻿<div class="panel-group" id="accordionHCuriosite">
+    <div class="panel panel-default">
+        <div class="panel-heading" id="headingHCuriosite" ng-click="GoTo('HCuriosite')">
+            <h2 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordionHCuriosite" data-target="#collapseHCuriosite">
+                    Curiosité
+                </a>
+            </h2>
+        </div>
+        <div id="collapseHCuriosite" aria-labelledby="headingHCuriosite" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div>
+                    <h3>Ce que j'entends par "curiosité"</h3>
+                    {texte}
+                </div>
+                <hr />
+                <div>
+                    <h3>Des exemples dans mon expérience</h3>
+                    {texte}
+                </div>
+                <hr />
+                <div>
+                    <h3>Regard critique</h3>
+                    0
+                    <div class="progress progress-striped">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10" style="width: 70%">
+                            <span class="sr-only">8/10</span>
+                        </div>
+                    </div>
+                    10
+                    <p>préciser échelle</p>
+                </div>
+                <hr />
+                <div>
+                    <h3>Evolution</h3>
+                    {texte}
+                </div>
+                <hr />
+                <div>
+                    <h3>Réalisation</h3>
+                    Un peu sur tous les projet mais voici ceux dans lesquels ce savoir-être m'a le plus servi
+                    <ul>
+                        <li><a ng-click="GoProjetProfessionel('TIME')">TIME</a></li>
+                        <li><a ng-click="GoProjetProfessionel('Contrat')">Contrat d'engagement</a></li>
+                        <li><a ng-click="GoProjetProfessionel('VueFrais')">Vue frais</a></li>
+                        <li><a ng-click="GoProjetProfessionel('TRAVAUX')">TRAVAUX</a></li>
+                        <li><a ng-click="GoProjetProfessionel('MGM')">MGM</a></li>
+                        <li><a ng-click="GoProjetEtudiant('GestionTags')">Gestion des tags</a></li>
+                        <li><a ng-click="GoProjetEtudiant('MeetingTracker')">Meeting tracker</a></li>
+                        <li><a ng-click="GoProjetEtudiant('CheckYourSMILE')">Check your SMILE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

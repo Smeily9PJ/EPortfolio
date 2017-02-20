@@ -1,0 +1,225 @@
+﻿@import '../General/Variables.scss';
+
+
+$height_col_header: 120px;
+$width_row_header: 150px;
+$width_row: 88px;
+$height_row: 35px;
+
+.matrice {
+    .table-2D-fullscreen {
+        position: fixed !important;
+        width: calc(100% - 18px) !important;
+        height: calc(100% - 140px) !important;
+        left: 0 !important;
+        top: 79px !important;
+        background: $background_color_body !important;
+        z-index: 10 !important;
+        background-color: $background_color_body !important;
+    }
+
+    #table-2D {
+        position: relative;
+        padding: 10px;
+        width: 990px;
+        height: 403px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+
+        #wrapper {
+            position: absolute;
+            top: 10px;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+        }
+
+        .cell {
+            position: absolute;
+            overflow: hidden;
+        }
+
+        .col1 {
+            left: 0;
+
+            td, th {
+                min-width: $width_row_header;
+                max-width: $width_row_header;
+            }
+
+            border-bottom: 1px $text_color solid;
+ 
+        }
+
+        .col2 {
+            left: $width_row_header + 30px;
+            right: 0;
+        }
+
+        .row1 {
+            top: 0;
+            height: $height_col_header;
+            border-bottom: 1px $text_color solid;
+        }
+
+        .row2 {
+            top: $height_col_header;
+            bottom: 0;
+        }
+
+        #col-wrapper {
+            bottom: 17px;
+        }
+
+        #row-wrapper {
+            right: 17px;
+        }
+
+        #row, #col {
+            position: relative;
+        }
+
+        #table {
+            overflow: scroll;
+        }
+
+        th {
+            border: 1px solid $text_color;
+            height: $height_col_header;
+            color: white;
+            background-color: $background_color;
+        }
+
+        .th-clickable {
+            * {
+                margin: auto;
+                writing-mode: vertical-rl !important;
+            }
+        }
+
+        .clickable:hover, .clickable:active {
+            background-color: $background_color_body !important;
+            cursor: pointer;
+
+            a {
+                color: $text_color_hover;
+            }
+        }
+
+        td {
+            border: 1px solid $text_color;
+            background-color: $background_color;
+        }
+
+        tr {
+            height: $height_row;
+        }
+
+        th, td {
+            text-align: center;
+            font-variant: small-caps;
+            min-width: $width_row;
+            max-width: $width_row;
+            padding: 5px;
+
+        }
+
+         
+
+        .diagonal-separator {
+            height: $height_col_header;
+            min-width: $width_row_header + 30px !important;
+            max-width: $width_row_header + 30px !important;
+
+            background: linear-gradient(to right top, $background_color 0%, $background_color 49.9%, $text_color 50.3%, $text_color 50.7%, $background_color 51.1%, $background_color 100%);
+
+            div {
+                transform: rotate(35deg);
+                height: 20px;
+                margin: 15px;
+            }
+
+            .projet {
+                padding-left: 35px;
+            }
+
+            .competence {
+                padding-right: 10px;
+            }
+        }
+
+
+        .table-central {
+            background-color: $background_color_body;
+        }
+    }
+
+    .table-2D-button-exit-fullscreen {
+        position: fixed;
+        z-index: 1100;
+        width: 40px;
+        right: 33px;
+        top: 13px;
+        height: 37px;
+    }
+
+
+    .competence-rowspan {
+        max-width: 30px !important;
+
+        * {
+            writing-mode: vertical-rl !important;
+        }
+    }
+
+    .green-cell {
+        background-color: $matrice_green !important;
+        color: darken($matrice_green, 15%);
+    }
+
+    .red-cell {
+        background-color: $matrice_red !important;
+        color: darken($matrice_red, 15%);
+    }
+
+    .shadow-level1 {
+        z-index: 300;
+        box-shadow: 4px 2px 5px 0px $background_color_body;
+    }
+
+    .shadow-level2 {
+        z-index: 200;
+        box-shadow: -1px 4px 4px 0px $background_color_body;
+    }
+
+    .shadow-level3 {
+        z-index: 100;
+        box-shadow: 4px 0px 7px -1px $background_color_body;
+    }
+
+    .legende {
+        th, td {
+            height: 30px;
+            border: 1px solid $text_color;
+            padding-right : 5px;
+            background-color : $background_color;
+        }
+
+        th {
+           text-align:center;
+        }
+
+        td {
+            text-align:right;
+        }
+
+        .desc {
+            width : 285px;
+        }
+
+        .green-cell, .red-cell {
+           text-align:center;
+            width: 50px;
+        }
+    }
+}

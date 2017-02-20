@@ -1,0 +1,122 @@
+﻿<html lang="fr" ng-app="app">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>E-Portfolio/Julie Pélissou </title>
+    <meta charset="utf-8" />
+    <link href="Library/bootstrap.css" rel="stylesheet">
+    <link href="Library/titatoggle-dist.css" rel="stylesheet">
+
+    <link href="App/Generate/Css/General/Variables.css" rel="stylesheet" type="text/css" id="variable-style" />
+    <link href="App/Generate/Css/Competence/Competence.css" rel="stylesheet" type="text/css" />
+    <link href="App/Generate/Css/Contact/Contact.css" rel="stylesheet" type="text/css" />
+    <link href="App/Generate/Css/Experience/Experience.css" rel="stylesheet" type="text/css" />
+    <link href="App/Generate/Css/General/CollapseCustom.css" rel="stylesheet" type="text/css" />
+    <link href="App/Generate/Css/General/NavBarCustom.css" rel="stylesheet" type="text/css" />
+    <link href="App/Generate/Css/General/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="App/Generate/Css/Home/Home.css" rel="stylesheet" type="text/css" />
+    <link href="App/Generate/Css/Loisir/Loisir.css" rel="stylesheet" type="text/css" />
+    <link href="App/Generate/Css/Matrice/Matrice.css" rel="stylesheet" type="text/css" />
+
+    <script src="Library/jquery-2.2.3.js"></script>
+    <script src="Library/bootstrap.js"></script>
+    <script src="Library/require.js"></script>
+    <script src="Library/angular.js"></script>
+    <script src="Library/angular-ui-router.js"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js"></script>
+    <script src="https://rawgit.com/krispo/angular-nvd3/v1.0.4/dist/angular-nvd3.js"></script>-->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+
+    <script src="Route.js"></script>
+    <script src="app.js"></script>
+    <script src="App/Competence/Competence.js"></script>
+    <script src="App/Contact/Contact.js"></script>
+    <script src="App/Experience/Experience.js"></script>
+    <script src="App/General/Menu.js"></script>
+    <script src="App/Home/Home.js"></script>
+    <script src="App/Loisir/Loisir.js"></script>
+    <script src="App/Matrice/Matrice.js"></script>
+
+    <script>
+        // Pour activer tooltip et popover
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+</head>
+<body ng-controller="MenuController">
+    <div class="header">
+        <div class="page-header">
+            <h1>E-Portfolio <small>Julie Pelissou</small></h1>
+        </div>
+        <!--<div class="lampe" ng-click="ChangeStyle()">
+            <b class="glyphicon glyphicon-lamp i-m-here" data-toggle="tooltip" data-placement="left" title="Un design lumineux ?"></b>
+        </div>-->
+    </div>
+    <div class="version">
+        <p>Version : {{Menu.Version}}</p>
+    </div>
+    <div class="body" ng-class="{'rotate' : rotate == true, '' : rotate == false}" ng-mousedown="Rotate = true" ng-mouseup="Rotate = false">
+        <!------------------
+            Menus/Onglets
+        ------------------->
+        <!-- Menu format onglets-->
+        <div class="row menu-onglet">
+            <div class="col-md-8 col-md-offset-2">
+                <ul class="custom-bar nav nav-tabs nav-justified">
+                    <li ng-repeat="menuItem in Menu.Items"
+                        ng-class="{
+                            '' : !menuItem.Active,
+                            'active' : menuItem.Active
+                         }">
+                        <a id="link-{{menuItem.Href}}" href="#/{{menuItem.Href}}" ng-click="Menu.Change($index)"><b>{{menuItem.Name}}</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Menu format button (si écran trop petit pour les onglets) -->
+        <div class="menu-button" ng-click="Menu.AfficherMenuSpecial = !Menu.AfficherMenuSpecial">
+            <div><i class="glyphicon glyphicon-th-list"></i></div>
+        </div>
+
+        <!-- Menu affiché au clic sur le bouton -->
+        <div ng-if="Menu.AfficherMenuSpecial == true">
+            <div class="menu-button-element" ng-repeat="menuItem in Menu.Items" ng-click="Menu.Change($index)" href="{{menuItem.Href}}">
+                <a><b>{{menuItem.Name}}</b></a>
+            </div>
+        </div>
+
+
+        <!------------------
+            Boutons fixes
+        ------------------->
+        <!-- Pour la matrice, à gauche -->
+        <button type="button" class="btn btn-default button-fixe button-matrice" ng-click="GoMatrice()">
+            <div class="glyphicon glyphicon-list"></div>
+            <div>Matrice<br />Projets -<br />Compétences</div>
+        </button>
+
+        <!-- Pour le contact, à droite -->
+        <button type="button" class="btn btn-default button-fixe button-contact" ng-click="GoContact()">
+            <span class="glyphicon glyphicon-envelope"></span><span>Contactez-moi</span>
+        </button>
+        <!------------------
+            Contenu principal de la page
+        ------------------->
+
+        <main class="row">
+            <div class="main-content col-md-8 col-md-offset-2" ui-view></div>
+        </main>
+
+    </div>
+</body>
+</html>

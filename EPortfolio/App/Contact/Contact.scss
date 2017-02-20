@@ -1,0 +1,45 @@
+﻿@import '../General/Variables.scss';
+
+.contact_page {
+    .text {
+        padding-top: $padding_text;
+        padding-bottom: $padding_text;
+    }
+
+    .row {
+        label {
+            display: block;
+            text-align: right;
+            height: 25px;
+            margin-top: 4px !important;
+        }
+
+        input {
+            width: 40%;
+            height: 25px;
+            margin-bottom: 4px !important;
+            margin-top: 4px !important;
+        }
+
+        button {
+            float: right;
+            height: 25px;
+            margin-top: 5px;
+            padding-top: 0px;
+        }
+
+        button:hover {
+            background-color: $border_color;
+        }
+    }
+
+    .note-editing-area {
+        height: 200px !important;
+    }
+
+    @media only screen and (max-width:1000px) {
+        label {
+            display: none !important;
+        }
+    }
+}

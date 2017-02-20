@@ -1,0 +1,31 @@
+﻿@import 'Variables';
+
+.panel {
+    border-color: $border_color;
+    border-width: 2px;
+    border-radius: 10px;
+
+    .panel-heading {
+        color: $text_color;
+        border-color: $border_color;
+
+        &:hover {
+            color: $text_color_hover;
+            cursor: pointer;
+            background-color: darken($border_color, 2%) !important;
+        }
+    }
+
+    .panel-body {
+        background-color: $background_color_body !important;
+        box-shadow: inset 0px 0px 20px 0px $border_color !important;
+    }
+
+    .panel-heading, .panel {
+        background-color: $border_color !important;
+    }
+
+    .panel-heading + .panel-collapse > .panel-body {
+        border-top-color: $border_color;
+    }
+}

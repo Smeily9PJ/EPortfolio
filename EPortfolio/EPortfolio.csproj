@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E092F472-DA5A-4D4C-BF90-58D1E5A87186}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EPortfolio</RootNamespace>
+    <AssemblyName>EPortfolio</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\EPortfolio.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\ThirdPart\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.js" />
+    <Content Include="App\Competence\Competence.html" />
+    <Content Include="App\Competence\Competence.js" />
+    <Content Include="App\Competence\Humaine\Adaptabilite.html" />
+    <Content Include="App\Competence\Humaine\Autonomie.html" />
+    <Content Include="App\Competence\Humaine\Curiosite.html" />
+    <Content Include="App\Competence\Humaine\Patience.html" />
+    <Content Include="App\Competence\Humaine\Serieux.html" />
+    <Content Include="App\Competence\Humaine\Sociabilite.html" />
+    <Content Include="App\Competence\Technique\AngularJS.html" />
+    <Content Include="App\Competence\Technique\BDD.html" />
+    <Content Include="App\Competence\Technique\Chiffrage.html" />
+    <Content Include="App\Competence\Technique\CSharp.html" />
+    <Content Include="App\Competence\Technique\CSS.html" />
+    <Content Include="App\Competence\Technique\Documentation.html" />
+    <Content Include="App\Competence\Technique\HTML.html" />
+    <Content Include="App\Competence\Technique\JsTs.html" />
+    <Content Include="App\Competence\Technique\Log4Net.html" />
+    <Content Include="App\Competence\Technique\MethodesAGILE.html" />
+    <Content Include="App\Competence\Technique\PlanDeTests.html" />
+    <Content Include="App\Competence\Technique\WebApi.html" />
+    <Content Include="App\Contact\Contact.html" />
+    <Content Include="App\Contact\Contact.js" />
+    <Content Include="App\Experience\Etudiant\CheckYourSMILE.html" />
+    <Content Include="App\Experience\Etudiant\MeetingTracker.html" />
+    <Content Include="App\Experience\Experience.html" />
+    <Content Include="App\Experience\Experience.js" />
+    <Content Include="App\Experience\Professionel\ContratEngagement.html" />
+    <Content Include="App\Experience\Professionel\EVERSUITE.html" />
+    <Content Include="App\Experience\Professionel\GestionTags.html" />
+    <Content Include="App\Experience\Professionel\MGM.html" />
+    <Content Include="App\Experience\Professionel\TIME.html" />
+    <Content Include="App\Experience\Professionel\TRAVAUX.html" />
+    <Content Include="App\Experience\Professionel\VueFrais.html" />
+    <Content Include="App\General\Menu.js" />
+    <Content Include="App\General\Template.html" />
+    <Content Include="App\Generate\Css\Competence\Competence.css" />
+    <Content Include="App\Generate\Css\Contact\Contact.css" />
+    <Content Include="App\Generate\Css\Experience\Experience.css" />
+    <Content Include="App\Generate\Css\General\CollapseCustom.css" />
+    <Content Include="App\Generate\Css\General\NavBarCustom.css" />
+    <Content Include="App\Generate\Css\General\StyleSheet.css" />
+    <Content Include="App\Generate\Css\General\Variables - Copier.css" />
+    <Content Include="App\Generate\Css\General\Variables.css" />
+    <Content Include="App\Generate\Css\General\Variables2.css" />
+    <Content Include="App\Generate\Css\Home\Home.css" />
+    <Content Include="App\Generate\Css\Loisir\Loisir.css" />
+    <Content Include="App\Generate\Css\Matrice\Matrice.css" />
+    <Content Include="App\Home\Home.html" />
+    <Content Include="App\Home\Home.js" />
+    <Content Include="App\Loisir\Loisir.html" />
+    <Content Include="App\Loisir\Loisir.js" />
+    <Content Include="App\Matrice\Matrice.html" />
+    <Content Include="App\Matrice\Matrice.js" />
+    <Content Include="App_Data\Test.xml" />
+    <Content Include="Global.asax" />
+    <Content Include="Gulpfile.js" />
+    <Content Include="index.html" />
+    <Content Include="Library\angular-nvd3.js" />
+    <Content Include="Library\angular-ui-router.js" />
+    <Content Include="Library\angular.js" />
+    <Content Include="Library\bootstrap.css" />
+    <Content Include="Library\bootstrap.js" />
+    <Content Include="Library\jquery-2.2.3.js" />
+    <Content Include="Library\require.js" />
+    <Content Include="Library\titatoggle-dist.css" />
+    <Content Include="Route.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\Logging.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\SkillsController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Diplome.cs" />
+    <Compile Include="Models\Skill.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rules\ContactRules.cs" />
+    <Compile Include="Rules\SkillsRules.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="package.json" />
+    <Content Include="fonts\CompleteInHim.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\Japaneseb.ttf" />
+    <Content Include="fonts\PolenticalNeonBold.ttf" />
+    <Content Include="fonts\PolenticalNeonBolditalic.ttf" />
+    <Content Include="fonts\PolenticalNeonItalic.ttf" />
+    <Content Include="fonts\PolenticalNeonRegular.ttf" />
+    <Content Include="App\Competence\Competence.scss" />
+    <Content Include="App\Contact\Contact.scss" />
+    <Content Include="App\Experience\Experience.scss" />
+    <Content Include="App\General\CollapseCustom.scss" />
+    <Content Include="App\General\NavBarCustom.scss" />
+    <Content Include="App\General\StyleSheet.scss" />
+    <Content Include="App\General\Variables.scss" />
+    <Content Include="App\Home\Home.scss" />
+    <Content Include="App\Loisir\Loisir.scss" />
+    <Content Include="App\Matrice\Matrice.scss" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\" />
+    <Folder Include="dist\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64410</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:64410/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Ce projet fait référence à des packages NuGet qui sont manquants sur cet ordinateur. Utilisez l'option de restauration des packages NuGet pour les télécharger. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkID=322105. Le fichier manquant est : {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

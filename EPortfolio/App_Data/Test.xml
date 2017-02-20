@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<diplomes>
+  <diplome>
+    <annee>2015-2017</annee>
+    <formation>Master IL (ingénierie du logiciel</formation>
+    <etablissement>In'tech</etablissement>
+    <localisation>Ivry-sur-seine (94)</localisation>
+  </diplome>
+  <diplome>
+    <annee>2014-2015</annee>
+    <formation>LP DQL (licence professionnelle développement et qualité du logiciel</formation>
+    <etablissement>IUT Rangueil</etablissement>
+    <localisation>Toulouse (31)</localisation>
+  </diplome>
+  <diplome>
+    <annee>2012-2014</annee>
+    <formation>DUT informatique</formation>
+    <etablissement>IUT Rangueil</etablissement>
+    <localisation>Toulouse (31)</localisation>
+  </diplome>
+  <diplome>
+    <annee>2012</annee>
+    <formation>BAC S spé math</formation>
+    <etablissement>Lycée de la borde basse</etablissement>
+    <localisation>Castres (81)</localisation>
+  </diplome>
+</diplomes>
