@@ -24,7 +24,7 @@ namespace EPortfolio.Rules
         /// <returns>La liste des compétences</returns>
         public List<Models.Skill> GetAllSkills()
         {
-            XmlTextReader reader = new XmlTextReader("../App_Data/Test.xml");
+            XmlTextReader reader = new XmlTextReader("../App_Data/Data.xml");
 
             while (reader.Read())
             {

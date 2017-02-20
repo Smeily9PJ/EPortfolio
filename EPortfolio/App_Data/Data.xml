@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <skills>
+    <skill type="H" code="Adaptabilite">Adaptabilité</skill>
+    <skill type="H" code="Autonomie">Autonomie</skill>
+    <skill type="H" code="Curiosite">Curiosité</skill>
+    <skill type="H" code="Patience">Patience</skill>
+    <skill type="H" code="Serieux">Sérieux</skill>
+    <skill type="H" code="Sociabilite">Sociabilité</skill>
+    <skill type="T" code="AngularJS">AngularJS</skill>
+    <skill type="T" code="BDD">Base de données</skill>
+    <skill type="T" code="Chiffrage">Chiffrage</skill>
+    <skill type="T" code="CSharp">C#</skill>
+    <skill type="T" code="CSS">CSS - SASS</skill>
+    <skill type="T" code="Documentation">Documentation</skill>
+    <skill type="T" code="HTML">HTML</skill>
+    <skill type="T" code="JsTs">Type/Javascript</skill>
+    <skill type="T" code="Log4Net">Log4Net</skill>
+    <skill type="T" code="MethodesAGILE">Méthodes AGILE</skill>
+    <skill type="T" code="PlanDeTests">Plan de tests</skill>
+    <skill type="T" code="WebApi">Web Api</skill>
+  </skills>
+  <projects>
+    <project type="P" code="TIME">TIME</project>
+    <project type="P" code="ContratEngagement">Contrat d'engagement</project>
+    <project type="P" code="VueFrais">Vue Frais</project>
+    <project type="P" code="TRAVAUX">TRAVAUX</project>
+    <project type="P" code="MGM">MGM</project>
+    <project type="P" code="EVERSUITE">EVERSUITE</project>
+    <project type="P" code="GestionTags">Gestion des Tags</project>
+    <project type="E" code="MeetingTracker">Meeting Tracker</project>
+    <project type="E" code="CheckYourSMILE">Check Your SMILE</project>
+  </projects>
+  <matrice>
+    <ligne code="Adaptabilite">
+      <colonne code="TIME">1</colonne>
+      <colonne code="ContratEngagement">1</colonne>
+      <colonne code="VueFrais">1</colonne>
+      <colonne code="TRAVAUX">1</colonne>
+      <colonne code="MGM">1</colonne>
+      <colonne code="EVERSUITE">0</colonne>
+      <colonne code="GestionTags">0</colonne>
+      <colonne code="MeetingTracker">0</colonne>
+      <colonne code="CheckYourSMILE">0</colonne>
+    </ligne>
+    <ligne code="Autonomie">
+      <colonne code="TIME">1</colonne>
+      <colonne code="ContratEngagement">1</colonne>
+      <colonne code="VueFrais">1</colonne>
+      <colonne code="TRAVAUX">1</colonne>
+      <colonne code="MGM">1</colonne>
+      <colonne code="EVERSUITE">1</colonne>
+      <colonne code="GestionTags">1</colonne>
+      <colonne code="MeetingTracker">0</colonne>
+      <colonne code="CheckYourSMILE">0</colonne>
+    </ligne>
+    <ligne code="Curiosite">
+      <colonne code="TIME">1</colonne>
+      <colonne code="ContratEngagement">1</colonne>
+      <colonne code="VueFrais">1</colonne>
+      <colonne code="TRAVAUX">1</colonne>
+      <colonne code="MGM">1</colonne>
+      <colonne code="EVERSUITE">0</colonne>
+      <colonne code="GestionTags">1</colonne>
+      <colonne code="MeetingTracker">1</colonne>
+      <colonne code="CheckYourSMILE">1</colonne>
+    </ligne>
+    <ligne code="Patience">
+      <colonne code="TIME">0</colonne>
+      <colonne code="ContratEngagement">0</colonne>
+      <colonne code="VueFrais">0</colonne>
+      <colonne code="TRAVAUX">0</colonne>
+      <colonne code="MGM">0</colonne>
+      <colonne code="EVERSUITE">0</colonne>
+      <colonne code="GestionTags">0</colonne>
+      <colonne code="MeetingTracker">1</colonne>
+      <colonne code="CheckYourSMILE">1</colonne>
+    </ligne>
+    <ligne code="Serieux">
+      <colonne code="TIME">1</colonne>
+      <colonne code="ContratEngagement">1</colonne>
+      <colonne code="VueFrais">1</colonne>
+      <colonne code="TRAVAUX">1</colonne>
+      <colonne code="MGM">1</colonne>
+      <colonne code="EVERSUITE">1</colonne>
+      <colonne code="GestionTags">1</colonne>
+      <colonne code="MeetingTracker">1</colonne>
+      <colonne code="CheckYourSMILE">1</colonne>
+    </ligne>
+    <ligne code="Sociabilite">
+      <colonne code="TIME">1</colonne>
+      <colonne code="ContratEngagement">1</colonne>
+      <colonne code="VueFrais">1</colonne>
+      <colonne code="TRAVAUX">1</colonne>
+      <colonne code="MGM">1</colonne>
+      <colonne code="EVERSUITE">1</colonne>
+      <colonne code="GestionTags">0</colonne>
+      <colonne code="MeetingTracker">0</colonne>
+      <colonne code="CheckYourSMILE">0</colonne>
+    </ligne>
+    <ligne code="AngularJS">
+      <colonne code="TIME">1</colonne>
+      <colonne code="ContratEngagement">1</colonne>
+      <colonne code="VueFrais">1</colonne>
+      <colonne code="TRAVAUX">0</colonne>
+      <colonne code="MGM">0</colonne>
+      <colonne code="EVERSUITE">0</colonne>
+      <colonne code="GestionTags">0</colonne>
+      <colonne code="MeetingTracker">0</colonne>
+      <colonne code="CheckYourSMILE">0</colonne>
+    </ligne>
+    <ligne code="BDD">
+      <colonne code="TIME">1</colonne>
+      <colonne code="ContratEngagement">1</colonne>
+      <colonne code="VueFrais">1</colonne>
+      <colonne code="TRAVAUX">1</colonne>
+      <colonne code="MGM">1</colonne>
+      <colonne code="EVERSUITE">0</colonne>
+      <colonne code="GestionTags">0</colonne>
+      <colonne code="MeetingTracker">1</colonne>
+      <colonne code="CheckYourSMILE">1</colonne>
+    </ligne>
+    <ligne code="Chiffrage">
+      <colonne code="TIME">1</colonne>
+      <colonne code="ContratEngagement">1</colonne>
+      <colonne code="VueFrais">1</colonne>
+      <colonne code="TRAVAUX">1</colonne>
+      <colonne code="MGM">1</colonne>
+      <colonne code="EVERSUITE">0</colonne>
+      <colonne code="GestionTags">0</colonne>
+      <colonne code="MeetingTracker">0</colonne>
+      <colonne code="CheckYourSMILE">0</colonne>
+    </ligne>
+    <ligne code="CSharp">
+      <colonne code="TIME">1</colonne>
+      <colonne code="ContratEngagement">1</colonne>
+      <colonne code="VueFrais">1</colonne>
+      <colonne code="TRAVAUX">1</colonne>
+      <colonne code="MGM">1</colonne>
+      <colonne code="EVERSUITE">0</colonne>
+      <colonne code="GestionTags">0</colonne>
+      <colonne code="MeetingTracker">0</colonne>
+      <colonne code="CheckYourSMILE">0</colonne>
+    </ligne>
+    <ligne code="CSS">
+      <colonne code="TIME">1</colonne>
+      <colonne code="ContratEngagement">1</colonne>
+      <colonne code="VueFrais">1</colonne>
+      <colonne code="TRAVAUX">0</colonne>
+      <colonne code="MGM">0</colonne>
+      <colonne code="EVERSUITE">0</colonne>
+      <colonne code="GestionTags">0</colonne>
+      <colonne code="MeetingTracker">1</colonne>
+      <colonne code="CheckYourSMILE">1</colonne>
+    </ligne>
+    <ligne code="Documentation">
+      <colonne code="TIME">1</colonne>
+      <colonne code="ContratEngagement">1</colonne>
+      <colonne code="VueFrais">1</colonne>
+      <colonne code="TRAVAUX">1</colonne>
+      <colonne code="MGM">1</colonne>
+      <colonne code="EVERSUITE">1</colonne>
+      <colonne code="GestionTags">1</colonne>
+      <colonne code="MeetingTracker">1</colonne>
+      <colonne code="CheckYourSMILE">1</colonne>
+    </ligne>
+    <ligne code="HTML">
+      <colonne code="TIME">1</colonne>
+      <colonne code="ContratEngagement">1</colonne>
+      <colonne code="VueFrais">1</colonne>
+      <colonne code="TRAVAUX">0</colonne>
+      <colonne code="MGM">0</colonne>
+      <colonne code="EVERSUITE">0</colonne>
+      <colonne code="GestionTags">0</colonne>
+      <colonne code="MeetingTracker">1</colonne>
+      <colonne code="CheckYourSMILE">1</colonne>
+    </ligne>
+    <ligne code="JsTs">
+      <colonne code="TIME">1</colonne>
+      <colonne code="ContratEngagement">1</colonne>
+      <colonne code="VueFrais">1</colonne>
+      <colonne code="TRAVAUX">0</colonne>
+      <colonne code="MGM">0</colonne>
+      <colonne code="EVERSUITE">0</colonne>
+      <colonne code="GestionTags">0</colonne>
+      <colonne code="MeetingTracker">1</colonne>
+      <colonne code="CheckYourSMILE">1</colonne>
+    </ligne>
+    <ligne code="Log4Net">
+      <colonne code="TIME">1</colonne>
+      <colonne code="ContratEngagement">1</colonne>
+      <colonne code="VueFrais">1</colonne>
+      <colonne code="TRAVAUX">1</colonne>
+      <colonne code="MGM">1</colonne>
+      <colonne code="EVERSUITE">0</colonne>
+      <colonne code="TIME">0</colonne>
+      <colonne code="GestionTags">0</colonne>
+      <colonne code="MeetingTracker">0</colonne>
+      <colonne code="CheckYourSMILE">0</colonne>
+    </ligne>
+    <ligne code="MethodesAGILE">
+      <colonne code="TIME">0</colonne>
+      <colonne code="ContratEngagement">0</colonne>
+      <colonne code="VueFrais">0</colonne>
+      <colonne code="TRAVAUX">0</colonne>
+      <colonne code="MGM">0</colonne>
+      <colonne code="EVERSUITE">0</colonne>
+      <colonne code="GestionTags">0</colonne>
+      <colonne code="MeetingTracker">1</colonne>
+      <colonne code="CheckYourSMILE">0</colonne>
+    </ligne>
+    <ligne code="PlanDeTests">
+      <colonne code="TIME">1</colonne>
+      <colonne code="ContratEngagement">1</colonne>
+      <colonne code="VueFrais">1</colonne>
+      <colonne code="TRAVAUX">1</colonne>
+      <colonne code="MGM">1</colonne>
+      <colonne code="EVERSUITE">1</colonne>
+      <colonne code="GestionTags">0</colonne>
+      <colonne code="MeetingTracker">1</colonne>
+      <colonne code="CheckYourSMILE">1</colonne>
+    </ligne>
+    <ligne code="WebApi">
+      <colonne code="TIME">1</colonne>
+      <colonne code="ContratEngagement">1</colonne>
+      <colonne code="VueFrais">1</colonne>
+      <colonne code="TRAVAUX">0</colonne>
+      <colonne code="MGM">0</colonne>
+      <colonne code="EVERSUITE">0</colonne>
+      <colonne code="GestionTags">0</colonne>
+      <colonne code="MeetingTracker">0</colonne>
+      <colonne code="CheckYourSMILE">0</colonne>
+    </ligne>
+  </matrice>
+</data>
