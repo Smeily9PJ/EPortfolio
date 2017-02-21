@@ -1,18 +1,31 @@
 ﻿
-/* Colors */
+/* MAINS BLACK */
 $main_color : rgb(59, 59, 59);
-$secondary_color : rgb(182, 103, 191);
+$secondary_color : rgb(174, 93, 182);
 $text_color : rgb(255, 255, 255);
-
-$background_color : $main_color;
-$background_color_body : darken($main_color, 7%);
-$border_color : darken($secondary_color, 50%);
-$background_color_hover: darken($secondary_color, 45%);
-$text_color_hover : $secondary_color;
 
 /* Matrice color */
 $matrice_green : rgb(63, 83, 63);
 $matrice_red : rgb(112, 82, 84);
+
+
+/* MAINS WHITE 
+$main_color : rgb(255, 255, 255);
+$secondary_color : rgb(214, 192, 216);
+$text_color : rgb(0, 0, 0);*/
+
+/* Matrice color 
+$matrice_green : rgb(101, 167, 101);
+$matrice_red : rgb(177, 112, 116);*/
+
+
+/* Colors */
+$background_color : $main_color;
+$background_color_body : darken($main_color, 7%);
+$border_color : darken($secondary_color, 40%);
+$background_color_hover: darken($secondary_color, 30%);
+$text_color_hover : darken($secondary_color, 7%);
+
 
 /* Tailles */
 $height_header : 80px;

@@ -48,7 +48,6 @@ $height_row: 35px;
             }
 
             border-bottom: 1px $text_color solid;
- 
         }
 
         .col2 {
@@ -100,10 +99,15 @@ $height_row: 35px;
         .clickable:hover, .clickable:active {
             background-color: $background_color_body !important;
             cursor: pointer;
+            
 
             a {
                 color: $text_color_hover;
             }
+        }
+
+        .clickable:active {
+        box-shadow: inset 0px 0px 5px $text_color;
         }
 
         td {
@@ -121,16 +125,15 @@ $height_row: 35px;
             min-width: $width_row;
             max-width: $width_row;
             padding: 5px;
-
         }
 
-         
+
 
         .diagonal-separator {
             height: $height_col_header;
             min-width: $width_row_header + 30px !important;
             max-width: $width_row_header + 30px !important;
-
+            color: $text_color;
             background: linear-gradient(to right top, $background_color 0%, $background_color 49.9%, $text_color 50.3%, $text_color 50.7%, $background_color 51.1%, $background_color 100%);
 
             div {
@@ -201,24 +204,24 @@ $height_row: 35px;
         th, td {
             height: 30px;
             border: 1px solid $text_color;
-            padding-right : 5px;
-            background-color : $background_color;
+            padding-right: 5px;
+            background-color: $background_color;
         }
 
         th {
-           text-align:center;
+            text-align: center;
         }
 
         td {
-            text-align:right;
+            text-align: right;
         }
 
         .desc {
-            width : 285px;
+            width: 285px;
         }
 
         .green-cell, .red-cell {
-           text-align:center;
+            text-align: center;
             width: 50px;
         }
     }

@@ -156,6 +156,14 @@ body {
         color: $text_color;
         text-decoration: none;
     }
+
+    *:focus, *:active {
+        outline: none !important;
+    }
+
+    .btn:active {
+        box-shadow: inset 0px 0px 5px $text_color_hover;
+    }
 }
 
 /* Boutons fixes */

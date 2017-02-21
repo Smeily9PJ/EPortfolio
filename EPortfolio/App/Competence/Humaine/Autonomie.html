@@ -11,29 +11,74 @@
             <div class="panel-body">
                 <div>
                     <h3>Ce que j'entends par "autonomie"</h3>
-                    {texte}
+                    C'est être capable de <b>travailler sans aide superflue</b>, de trouver quoi faire seul si besoin.
                 </div>
                 <hr />
                 <div>
                     <h3>Des exemples dans mon expérience</h3>
-                   {texte}
+                    <div class="row paragraphe">
+                        <div class="col-md-6">
+                            <p>
+                                En premier exemple, je vais présenter mon stage à l'IRIT où 
+                                j'ai du travailler en autonomie totale sur le sujet que m'avait donné mon maitre de stage.
+                                En cas de besoin, je pouvais toujours demander de l'aide mais, pour le reste, je devais me gérer seule.
+                            </p>
+                            <p>
+                                Pour les projets étudiants, on nous donnait un sujet et, dans un délai strict, on devait produire un résultat.
+                                Et bien souvent, on se retrouvait face à des technologies qui pouvaient nous être inconnues ou peu connues.
+                                Ainsi pour atteindre nos objectifs, on pouvait certes demander une formation aux professeurs. 
+                                Mais dans la plupard des cas, à cause des délais, on s'auto-formait et on trouvait seul des solutions.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+                                Dans les projets professionnels auquels j'ai participé (et je participe encore actuellement), l'autonomie a été
+                                et reste une compétence importante. Dans ce contexte, on est souvent amené à prendre des initiatives, 
+                                se débrouiller dans l'attente de réponses à nos question.
+                                Même si ce n'est absolument pas pour tout les cas.
+                                Je parle là de situations qui sont amenées à arriver de temps à autre.
+                                L'autonomie c'est aussi le fait d'aller demander de l'aide uniquement s'il y en a besoin
+                                 ou de poser des questions utiles aux bonnes personnes.
+                            </p>
+                            <p>
+                                En résumé, dans mon expérience, l'autonomie est ce qui m'a parmise d'avancer en cas d'embuche sans aide superflue
+                                et de trouver les bonnes parties prenantes en cas de besoin.
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <hr />
                 <div>
                     <h3>Regard critique</h3>
-                    0
-                    <div class="progress progress-striped">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10" style="width: 70%">
-                            <span class="sr-only">8/10</span>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="niveau">
+                                J'estime mon niveau à :
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10" style="width: 100%">
+                                        ?/10
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <p>En précisant que : </p>
+                            <ul>
+                                <li>1 = Déjà entendu parlé</li>
+                                <li>3 = Débutant</li>
+                                <li>6 = Intermédiaire</li>
+                                <li>8 = Confirmé</li>
+                                <li>9 = Expert</li>
+                                <li>10 = Sénior</li>
+                            </ul>
                         </div>
                     </div>
-                    10
-                    <p>préciser échelle</p>
                 </div>
                 <hr />
                 <div>
                     <h3>Evolution</h3>
-                    {texte}
+                    L'autonomie évolue avec nos compétences. 
+                    Ainsi pour évoluer il me faut travailler sur les diverses compétences concernées par les projets.
                 </div>
                 <hr />
                 <div>
@@ -41,12 +86,12 @@
                     Un peu sur tous les projet mais voici ceux dans lesquels ce savoir-être m'a le plus servi
                     <ul>
                         <li><a ng-click="GoProjetProfessionel('TIME')">TIME</a></li>
-                        <li><a ng-click="GoProjetProfessionel('Contrat')">Contrat d'engagement</a></li>
+                        <li><a ng-click="GoProjetProfessionel('ContratEngagement')">Contrat d'engagement</a></li>
                         <li><a ng-click="GoProjetProfessionel('VueFrais')">Vue frais</a></li>
                         <li><a ng-click="GoProjetProfessionel('TRAVAUX')">TRAVAUX</a></li>
                         <li><a ng-click="GoProjetProfessionel('MGM')">MGM</a></li>
                         <li><a ng-click="GoProjetProfessionel('EVERSUITE')">EVERSUITE</a></li>
-                        <li><a ng-click="GoProjetEtudiant('GestionTags')">Gestion des tags</a></li>
+                        <li><a ng-click="GoProjetProfessionel('GestionTags')">Gestion des tags</a></li>
                     </ul>
                 </div>
             </div>

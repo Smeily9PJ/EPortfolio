@@ -8,3 +8,4 @@ EPortfolio/node_modules/*
 EPortfolio/App/Generate/Css/*
 EPortfolio/bin/*
 EPortfolio/obj/*
+*.log

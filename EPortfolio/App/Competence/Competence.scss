@@ -1,7 +1,17 @@
 ﻿@import '../General/Variables.scss';
 
 .experience_page, .competence_page {
-    $marge-toggle : 260px;
+    b {
+        color: $text_color_hover;
+    }
+
+    $marge-toggle: 260px;
+    text-align: justify;
+    text-justify: kashida;
+
+    .panel-title {
+        font-size: 20px;
+    }
 
     .detail {
         padding-top: $padding_text;
@@ -85,5 +95,29 @@
 
     .progress {
         width: 20%;
+        display: inline-block;
+        margin-bottom: -2px;
+    }
+
+    .niveau {
+        height: 25px;
+        width: 100%;
+        margin-left: 15%;
+        margin-top: 70px;
+    }
+
+    .paragraphe {
+        div {
+            padding: 0px 25px;
+            display: inline;
+
+            p::first-letter {
+                font-family: 'Japane';
+                float: left;
+                font-size: 30px;
+                font-weight: bolder;
+                color: $text_color;
+            }
+        }
     }
 }
