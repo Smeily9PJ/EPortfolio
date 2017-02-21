@@ -1,0 +1,30 @@
+<div class="experience_page" ng-controller="ExperienceController">
+    <div class="row title">
+        <div class="col-md-2">
+            <h1>Expériences</h1>
+        </div>
+        <div class="col-md-4 checkbox checkbox-slider--b toggle">
+            <label>
+                <span>Professionel</span><input type="checkbox" ng-model="IsEtudiant"><span>Etudiant</span>
+            </label>
+        </div>
+    </div>
+
+    <p class="en-tete">Cliquer sur un libellé pour faire apparaitre le détail d'une expérience.</p>
+
+    <div class="contenu">
+        <div ng-if="!IsEtudiant">
+            <div ng-include="'App/Experience/Professionel/TIME.html'"></div>
+            <div ng-include="'App/Experience/Professionel/ContratEngagement.html'"></div>
+            <div ng-include="'App/Experience/Professionel/VueFrais.html'"></div>
+            <div ng-include="'App/Experience/Professionel/TRAVAUX.html'"></div>
+            <div ng-include="'App/Experience/Professionel/MGM.html'"></div>
+            <div ng-include="'App/Experience/Professionel/EVERSUITE.html'"></div>
+            <div ng-include="'App/Experience/Professionel/GestionTags.html'"></div>
+        </div>
+        <div ng-if="IsEtudiant">
+            <div ng-include="'App/Experience/Etudiant/MeetingTracker.html'"></div>
+            <div ng-include="'App/Experience/Etudiant/CheckYourSMILE.html'"></div>
+        </div>
+    </div>
+</div>

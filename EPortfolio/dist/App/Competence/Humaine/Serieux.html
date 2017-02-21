@@ -1,31 +1,30 @@
-﻿<div class="panel-group" id="accordionHAdaptabilite">
+<div class="panel-group" id="accordionHSerieux">
     <div class="panel panel-default">
-        <div class="panel-heading" id="headingHAdaptabilite" ng-click="GoTo('HAdaptabilite')">
+        <div class="panel-heading" id="headingHSerieux" ng-click="GoTo('HSerieux')">
             <h2 class="panel-title">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordionHAdaptabilite" data-target="#collapseHAdaptabilite">
-                    Adaptabilité
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordionHSerieux" data-target="#collapseHSerieux">
+                    Sérieux
                 </a>
             </h2>
         </div>
-        <div id="collapseHAdaptabilite" aria-labelledby="headingHAdaptabilite" class="panel-collapse collapse">
+        <div id="collapseHSerieux" aria-labelledby="headingHSerieux" class="panel-collapse collapse">
             <div class="panel-body">
                 <div>
-                    <h3>Ce que j'entends par "adaptabilité"</h3>
-                    C'est la capacité à s'adapter et donc à être rapidement <b>efficace</b> dans une nouvelle situation.
+                    <h3>Ce que j'entends par "sérieux"</h3>
+                    {texte}
                 </div>
                 <hr />
                 <div>
                     <h3>Des exemples dans mon expérience</h3>
-                    <div class="row">
-                        <div class="col-md-6 paragraphe">
-                            <p>Lors de mon arrivé sur paris pour mon master en alternance,
-                            j'ai dû en une semaine : déménager, découvrir la nouvelle ville, découvrir la nouvelle école
-                            et découvrir un nouveau lieu de travail.</p>
-                        </div>
-                        <div class="col-md-6 paragraphe">
+                    <div class="row paragraphe">
+                        <div class="col-md-6">
                             <p>
-                                De plus ce nouveau travail comportait l'apprentissage de nouvelles langages : silverlight, c#, typescript,
-                                et l'approfondissement d'autres : html, css, SQL.
+                                Bla bla
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+                                Gna gna gna.
                             </p>
                         </div>
                     </div>
@@ -60,18 +59,22 @@
                 <hr />
                 <div>
                     <h3>Evolution</h3>
-                    De le futur, je souhaite accroitre ma confiance en moi et en mon travail afin de pouvoir prendre plus d'initiaves et moins déranger mes collègues avec des interrogations "inutiles".
+                    {texte}
                 </div>
                 <hr />
                 <div>
                     <h3>Réalisation</h3>
-                    <p>Cette compétence m'a servie dans tout mes projets mais surtout dans les projets suivant :</p>
+                    Un peu sur tous les projet mais voici ceux dans lesquels ce savoir-être m'a le plus servi
                     <ul>
                         <li><a ng-click="GoProjetProfessionel('TIME')">TIME</a></li>
                         <li><a ng-click="GoProjetProfessionel('ContratEngagement')">Contrat d'engagement</a></li>
                         <li><a ng-click="GoProjetProfessionel('VueFrais')">Vue frais</a></li>
                         <li><a ng-click="GoProjetProfessionel('TRAVAUX')">TRAVAUX</a></li>
                         <li><a ng-click="GoProjetProfessionel('MGM')">MGM</a></li>
+                        <li><a ng-click="GoProjetProfessionel('EVERSUITE')">EVERSUITE</a></li>
+                        <li><a ng-click="GoProjetProfessionel('GestionTags')">Gestion des tags</a></li>
+                        <li><a ng-click="GoProjetEtudiant('MeetingTracker')">Meeting tracker</a></li>
+                        <li><a ng-click="GoProjetEtudiant('CheckYourSMILE')">Check your SMILE</a></li>
                     </ul>
                 </div>
             </div>

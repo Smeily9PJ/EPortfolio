@@ -139,15 +139,16 @@
     <Content Include="App\Loisir\Loisir.js" />
     <Content Include="App\Matrice\Matrice.html" />
     <Content Include="App\Matrice\Matrice.js" />
+    <Content Include="App_Data\Data.xml" />
     <Content Include="App_Data\Test.xml" />
     <Content Include="Global.asax" />
     <Content Include="Gulpfile.js" />
     <Content Include="index.html" />
-    <Content Include="Library\angular-nvd3.js" />
+    <Content Include="Library\angular-animate.min.js" />
     <Content Include="Library\angular-ui-router.js" />
-    <Content Include="Library\angular.js" />
-    <Content Include="Library\bootstrap.css" />
-    <Content Include="Library\bootstrap.js" />
+    <Content Include="Library\angular.min.js" />
+    <Content Include="Library\bootstrap.min.css" />
+    <Content Include="Library\bootstrap.min.js" />
     <Content Include="Library\jquery-2.2.3.js" />
     <Content Include="Library\require.js" />
     <Content Include="Library\titatoggle-dist.css" />
@@ -198,7 +199,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\" />
+    <Folder Include="assets\" />
     <Folder Include="dist\" />
   </ItemGroup>
   <PropertyGroup>

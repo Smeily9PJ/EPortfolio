@@ -164,6 +164,21 @@ body {
     .btn:active {
         box-shadow: inset 0px 0px 5px $text_color_hover;
     }
+
+    .paragraphe {
+        text-align: justify;
+        text-justify: kashida;
+        padding: 0px 25px;
+        display: inline;
+
+        p::first-letter {
+            font-family: 'Japane';
+            float: left;
+            font-size: 30px;
+            font-weight: bolder;
+            color: $text_color;
+        }
+    }
 }
 
 /* Boutons fixes */
