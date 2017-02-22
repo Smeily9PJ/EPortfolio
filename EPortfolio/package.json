@@ -10,6 +10,7 @@
     "querystring": "^0.2.0"
   },
   "devDependencies": {
+    "angular-ui-bootstrap": "^2.5.0",
     "browser-sync": "^2.13.0",
     "del": "^2.2.2",
     "gulp": "^3.9.1",

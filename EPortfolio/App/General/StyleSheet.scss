@@ -115,8 +115,6 @@ body {
         }
     }
 
-
-
     .version {
         float: right;
         padding-right: 10px;
@@ -179,10 +177,26 @@ body {
             color: $text_color;
         }
     }
+
+    .detail {
+        height: 25px;
+        padding: 2px;
+    }
+
+    button:hover, button:focus {
+        background-color: $border_color !important;
+    }
+
+    .form-control, .btn {
+        &:active {
+            box-shadow: inset 0px 0px 5px $text_color_hover;
+            border-color: $text_color_hover !important;
+        }
+    }
 }
 
 /* Boutons fixes */
-.glyphicon-envelope, .glyphicon-list {
+.glyphicon {
     margin-right: 10px;
 }
 
@@ -227,5 +241,30 @@ body {
 
     div {
         display: inline-block;
+    }
+}
+
+.modal {
+    width: 50%;
+    height: 50%;
+
+    button {
+        color: $text_color;
+
+        &:hover {
+            color: $text_color !important;
+        }
+    }
+
+    .modal-content {
+        background-color: $background_color;
+    }
+
+    .modal-header {
+        border-bottom-color: $text_color_hover;
+    }
+
+    .modal-footer {
+        border-top-color: $text_color_hover;
     }
 }

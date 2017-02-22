@@ -120,6 +120,7 @@
     <Content Include="App\Experience\Professionel\TRAVAUX.html" />
     <Content Include="App\Experience\Professionel\VueFrais.html" />
     <Content Include="App\General\Menu.js" />
+    <Content Include="App\PopUp\PopUp.html" />
     <Content Include="App\General\Template.html" />
     <Content Include="App\Generate\Css\Competence\Competence.css" />
     <Content Include="App\Generate\Css\Contact\Contact.css" />
@@ -139,8 +140,11 @@
     <Content Include="App\Loisir\Loisir.js" />
     <Content Include="App\Matrice\Matrice.html" />
     <Content Include="App\Matrice\Matrice.js" />
+    <Content Include="App\PopUp\PopUp.js" />
     <Content Include="App_Data\Data.xml" />
     <Content Include="App_Data\Test.xml" />
+    <Content Include="assets\images.jpg" />
+    <Content Include="assets\trait-pinceau-hz.png" />
     <Content Include="Global.asax" />
     <Content Include="Gulpfile.js" />
     <Content Include="index.html" />
@@ -152,6 +156,7 @@
     <Content Include="Library\jquery-2.2.3.js" />
     <Content Include="Library\require.js" />
     <Content Include="Library\titatoggle-dist.css" />
+    <Content Include="Library\ui-bootstrap-tpls-2.5.0.min.js" />
     <Content Include="Route.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -174,23 +179,17 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="package.json" />
-    <Content Include="fonts\CompleteInHim.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\Japaneseb.ttf" />
-    <Content Include="fonts\PolenticalNeonBold.ttf" />
-    <Content Include="fonts\PolenticalNeonBolditalic.ttf" />
-    <Content Include="fonts\PolenticalNeonItalic.ttf" />
-    <Content Include="fonts\PolenticalNeonRegular.ttf" />
     <Content Include="App\Competence\Competence.scss" />
     <Content Include="App\Contact\Contact.scss" />
     <Content Include="App\Experience\Experience.scss" />
     <Content Include="App\General\CollapseCustom.scss" />
     <Content Include="App\General\NavBarCustom.scss" />
-    <Content Include="App\General\StyleSheet.scss" />
     <Content Include="App\General\Variables.scss" />
     <Content Include="App\Home\Home.scss" />
     <Content Include="App\Loisir\Loisir.scss" />
     <Content Include="App\Matrice\Matrice.scss" />
+    <Content Include="App\General\StyleSheet.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -199,7 +198,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="assets\" />
     <Folder Include="dist\" />
   </ItemGroup>
   <PropertyGroup>
