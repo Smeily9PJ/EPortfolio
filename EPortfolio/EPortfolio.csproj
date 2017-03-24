@@ -190,6 +190,7 @@
     <Content Include="App\Loisir\Loisir.scss" />
     <Content Include="App\Matrice\Matrice.scss" />
     <Content Include="App\General\StyleSheet.scss" />
+    <None Include=".bin\node.cmd" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
