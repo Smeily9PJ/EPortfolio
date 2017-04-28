@@ -1,26 +1,12 @@
-﻿<div class="modal fade" role="dialog" ng-controller="PopUpController">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header modal-header-custom">
-                <h4 class="modal-title title-white">tata</h4>
-            </div>
-            <div class="modal-body">
-                <div class="row paragraphe">
-                    <div class="col-md-6">
-                        <p>
-                            Description
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                        <p>
-                            Apport
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-primary btn-modal" type="button" >Ok</button>
-            </div>
-        </div>
+﻿<div class="modal-content" ng-controller="PopUpController">
+
+    <div class="modal-header">
+        <h3 class="modal-title" id="modal-title">I'm a modal!</h3>
+    </div>
+    <div class="modal-body" id="modal-body">
+        {{Description}}
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-primary" type="button" ng-click="close()">OK</button>
     </div>
 </div>

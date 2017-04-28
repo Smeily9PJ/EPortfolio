@@ -1,41 +1,78 @@
 <div class="home_page" ng-controller="HomeController">
-    <h1>Une brève décourte de Julie...</h1>
-    <div class="description">
-        <p>Breve description de moi (ac img ?)</p>
-    </div>
+    <h1>Bonjour et bienvenue !</h1>
     <div class="row">
-        <ul>
-            <li>Mon parcours</li>
-        </ul>
-
-        <!--<div class="col-md-6">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/Jz2YEvdSWZA" frameborder="0" allowfullscreen></iframe>
+        <div class="col-md-6 paragraphe">
+            <div class="col-md-6">
+                <p>
+                    Julie Pélissou <img src="../../assets/images.jpg" width="50" height="50" /><br />
+                </p>
+                <p>
+                    Née le : 23/11/1994 <br />
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="../../assets/images.jpg" width="100%" />
+            </div>
+            <br />
+            <p>
+                Je pense donc je suis. Hum... ouais j'étais trèèèès inspirée pour ça aussi^^'
+                Bref il faudra faire le résumé de ce que je suis, avec mon caractère et tout le bordel.
+            </p>
+            <p>
+                Bla bla bla. Remplissage de texte bidon pour faire genre que j'ai avancé sur cette partie.
+                Ici je présenterais ce que je cherche (pro) et mon but.
+            </p>
+        </div>
+        <div class="col-md-6 paragraphe">
+            <h3>
+                Mon parcours étudiant
+            </h3>
+            <div>
+                <div>
+                    <span class="glyphicon glyphicon-console"></span>2015-2017 : Master IL (Ingénierie du Logiciel)
+                    <button class="btn btn-primary detail"><i class="glyphicon glyphicon-education"></i>Détails</button>
+                </div>
+                <div>
+                    <span class="glyphicon glyphicon-console"></span>2014-2015 : Licence pro. DQL (Développement et Qualité Logiciel)
+                    <button class="btn btn-primary detail"><i class="glyphicon glyphicon-education"></i>Détails</button>
+                </div>
+                <div>
+                    <span class="glyphicon glyphicon-console"></span>2012-2014 : DUT informatique
+                    <button class="btn btn-primary detail"><i class="glyphicon glyphicon-education"></i>Détails</button>
+                </div>
+            </div>
+            <h3>
+                Mon parcours professionel
+            </h3>
+            <div>
+                <div>
+                    <span class="glyphicon glyphicon-console"></span>2015-2017 : Alternance à Gfi Informatique (Paris)
+                    <button type="button" class="btn btn-primary detail"
+                            ng-click="OpenModal()">
+                        <i class="glyphicon glyphicon-briefcase"></i>Détails
+                    </button>
+                </div>
+                <div>
+                    <span class="glyphicon glyphicon-console"></span>2014-2015 : Alternance à Gfi Informatique (Toulouse)
+                    <button type="button" class="btn btn-primary detail"><i class="glyphicon glyphicon-briefcase"></i>Détails</button>
+                </div>
+                <div>
+                    <span class="glyphicon glyphicon-console"></span>2014 : Stage à l'IRIT (Institut de Recherche Informatique de Toulouse)
+                    <button class="btn btn-primary detail"><i class="glyphicon glyphicon-briefcase"></i>Détails</button>
+                </div>
             </div>
         </div>
-
-        <div class="col-md-6">
-            <ul>
-                <li>
-                    Présentation de moi en général, mes qualités et défauts
-                </li>
-                <li>
-                    Mes compétences
-                </li>
-                <li>
-                    Vers quoi je veux m'orienter comme tehnos
-                </li>
-                <li>
-                   Une ouverture pour plus tard, où je me vois
-                </li>
-            </ul>
-        </div>-->
-        
     </div>
+    <!--<div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/Jz2YEvdSWZA" frameborder="0" allowfullscreen></iframe>
+        </div>-->
+
+
+
     <div class="conseil">
-        <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
-        Si vous ne savez pas par où commencer, je vous conseille le projet suivant :
-        <a ng-click="GoProjetProfessionel('TIME')" class="glyphicon glyphicon-road" aria-hidden="true"></a>
-        <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+        <p>
+            Si vous ne savez pas par où commencer, je vous conseille le projet suivant :
+            <a ng-click="GoProjetProfessionel('TIME')" class="glyphicon glyphicon-road" aria-hidden="true"></a>
+        </p>
     </div>
 </div>

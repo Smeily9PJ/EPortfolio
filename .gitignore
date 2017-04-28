@@ -9,3 +9,5 @@ EPortfolio/App/Generate/Css/*
 EPortfolio/bin/*
 EPortfolio/obj/*
 *.log
+
+Deploy/*

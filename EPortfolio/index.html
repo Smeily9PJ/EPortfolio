@@ -14,11 +14,13 @@
     <script src="Library/angular.min.js"></script>
     <script src="Library/angular-ui-router.js"></script>
     <script src="Library/angular-animate.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-sanitize.js"></script>
+    <script src="https://rawgit.com/dwmkerr/angular-modal-service/master/dst/angular-modal-service.js"></script>
     <script src="Library/ui-bootstrap-tpls-2.5.0.min.js"></script>
 
     <!------------------Developpemnt------------------------>
 
-    <!-- build:js scripts.min.js -->
+    <!--build:js scripts.min.js -->
     <script src="Route.js"></script>
     <script src="app.js"></script>
     <script src="App/Competence/Competence.js"></script>
@@ -53,71 +55,73 @@
         })
     </script>
 </head>
-<body ng-controller="MenuController">
-    <div class="header">
-        <div class="page-header">
-            <h1>E-Portfolio <small>Julie Pelissou</small></h1>
+<body>
+    <div ng-controller="MenuController">
+        <div class="header">
+            <div class="page-header">
+                <h1>E-Portfolio <small>Julie Pelissou</small></h1>
+            </div>
+            <!--<div class="lampe" ng-click="ChangeStyle()">
+                <b class="glyphicon glyphicon-lamp i-m-here" data-toggle="tooltip" data-placement="left" title="Un design lumineux ?"></b>
+            </div>-->
         </div>
-        <!--<div class="lampe" ng-click="ChangeStyle()">
-            <b class="glyphicon glyphicon-lamp i-m-here" data-toggle="tooltip" data-placement="left" title="Un design lumineux ?"></b>
-        </div>-->
-    </div>
-    <div class="version">
-        <p>Version : {{Menu.Version}}</p>
-    </div>
-    <div class="body" ng-class="{'rotate' : rotate == true, '' : rotate == false}" ng-mousedown="Rotate = true" ng-mouseup="Rotate = false">
-        <!------------------
-            Menus/Onglets
-        ------------------->
-        <!-- Menu format onglets-->
-        <div class="row menu-onglet">
-            <div class="col-md-8 col-md-offset-2">
-                <ul class="custom-bar nav nav-tabs nav-justified">
-                    <li ng-repeat="menuItem in Menu.Items"
-                        ng-class="{
+        <div class="version">
+            <p>Version : {{Menu.Version}}</p>
+        </div>
+        <div class="body" ng-class="{'rotate' : rotate == true, '' : rotate == false}" ng-mousedown="Rotate = true" ng-mouseup="Rotate = false">
+            <!------------------
+                Menus/Onglets
+            ------------------->
+            <!-- Menu format onglets-->
+            <div class="row menu-onglet">
+                <div class="col-md-8 col-md-offset-2">
+                    <ul class="custom-bar nav nav-tabs nav-justified">
+                        <li ng-repeat="menuItem in Menu.Items"
+                            ng-class="{
                             '' : !menuItem.Active,
                             'active' : menuItem.Active
                          }">
-                        <a id="link-{{menuItem.Href}}" href="#/{{menuItem.Href}}" ng-click="Menu.Change($index)"><b>{{menuItem.Name}}</b></a>
-                    </li>
-                </ul>
+                            <a id="link-{{menuItem.Href}}" href="#/{{menuItem.Href}}" ng-click="Menu.Change($index)"><b>{{menuItem.Name}}</b></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
 
-        <!-- Menu format button (si écran trop petit pour les onglets) -->
-        <div class="menu-button" ng-click="Menu.AfficherMenuSpecial = !Menu.AfficherMenuSpecial">
-            <div><i class="glyphicon glyphicon-th-list"></i></div>
-        </div>
-
-        <!-- Menu affiché au clic sur le bouton -->
-        <div ng-if="Menu.AfficherMenuSpecial == true">
-            <div class="menu-button-element" ng-repeat="menuItem in Menu.Items" ng-click="Menu.Change($index)" href="{{menuItem.Href}}">
-                <a><b>{{menuItem.Name}}</b></a>
+            <!-- Menu format button (si écran trop petit pour les onglets) -->
+            <div class="menu-button" ng-click="Menu.AfficherMenuSpecial = !Menu.AfficherMenuSpecial">
+                <div><i class="glyphicon glyphicon-th-list"></i></div>
             </div>
+
+            <!-- Menu affiché au clic sur le bouton -->
+            <div ng-if="Menu.AfficherMenuSpecial == true">
+                <div class="menu-button-element" ng-repeat="menuItem in Menu.Items">
+                    <a id="link-{{menuItem.Href}}" ng-click="Menu.Change($index)" href="#/{{menuItem.Href}}"><b>{{menuItem.Name}}</b></a>
+                </div>
+            </div>
+
+
+            <!------------------
+                Boutons fixes
+            ------------------->
+            <!-- Pour la matrice, à gauche -->
+            <button type="button" class="btn btn-default button-fixe button-matrice" ng-click="GoMatrice()">
+                <div class="glyphicon glyphicon-list"></div>
+                <div>Matrice<br />Projets -<br />Compétences</div>
+            </button>
+
+            <!-- Pour le contact, à droite -->
+            <button type="button" class="btn btn-default button-fixe button-contact" ng-click="GoContact()">
+                <span class="glyphicon glyphicon-envelope"></span><span>Contactez-moi</span>
+            </button>
+            <!------------------
+                Contenu principal de la page
+            ------------------->
+
+            <main class="row">
+                <div class="main-content col-md-8 col-md-offset-2" ui-view></div>
+            </main>
+
         </div>
-
-
-        <!------------------
-            Boutons fixes
-        ------------------->
-        <!-- Pour la matrice, à gauche -->
-        <button type="button" class="btn btn-default button-fixe button-matrice" ng-click="GoMatrice()">
-            <div class="glyphicon glyphicon-list"></div>
-            <div>Matrice<br />Projets -<br />Compétences</div>
-        </button>
-
-        <!-- Pour le contact, à droite -->
-        <button type="button" class="btn btn-default button-fixe button-contact" ng-click="GoContact()">
-            <span class="glyphicon glyphicon-envelope"></span><span>Contactez-moi</span>
-        </button>
-        <!------------------
-            Contenu principal de la page
-        ------------------->
-
-        <main class="row">
-            <div class="main-content col-md-8 col-md-offset-2" ui-view></div>
-        </main>
-
     </div>
 </body>
 </html>

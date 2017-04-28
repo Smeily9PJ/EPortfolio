@@ -1,4 +1,4 @@
-﻿function HomeController($scope, $state, $uibModal) {
+﻿function HomeController($scope, $state, ModalService) {
     $scope.Menu.Change(0);
    /* $scope.Diplomes = null;
     var uri = 'api/skills';
@@ -11,21 +11,26 @@
     $scope.goFavoryProject = function () { $state.go("Experience.detail", { refSwitch: 'P', refExperience: 'TIME' }); };
 
     $scope.OpenModal = function () {
-        $uibModal.open({
+       /* $uibModal.open({
             animation: true,
+            transclude: false,
             resolve: {
-                title: function () {
-                    return "test";
-                },
-                description: function () {
-                    return "desc";
-                },
-                apport: function () {
-                    return "apport";
-                }
+               /* $scope: $scope,
+                title:  "test",
+                description:  "desc",
+                apport:  "apport" 
             },
             templateUrl: 'App/PopUp/PopUp.html',
             controller: 'PopUpController'
+        });*/
+        ModalService.showModal({
+            templateUrl: 'App/PopUp/PopUp.html',
+            controller: "PopUpController"
+        }).then(function(modal) {
+            modal.element.modal();
+            modal.close.then(function(result) {
+                //$scope.message = "You said " + result;
+            });
         });
     };
 }

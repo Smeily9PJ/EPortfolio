@@ -47,11 +47,27 @@
     <Reference Include="log4net">
       <HintPath>..\ThirdPart\log4net.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Azure.AppService.ApiApps.Service, Version=0.9.16.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Azure.AppService.ApiApps.Service.0.9.16\lib\net45\Microsoft.Azure.AppService.ApiApps.Service.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Swashbuckle.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd1bb07a5ac7c7bc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Swashbuckle.Core.5.0.0\lib\net40\Swashbuckle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.4.0.0\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -69,6 +85,10 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.0.6\lib\net40\WebActivatorEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
@@ -128,9 +148,7 @@
     <Content Include="App\Generate\Css\General\CollapseCustom.css" />
     <Content Include="App\Generate\Css\General\NavBarCustom.css" />
     <Content Include="App\Generate\Css\General\StyleSheet.css" />
-    <Content Include="App\Generate\Css\General\Variables - Copier.css" />
     <Content Include="App\Generate\Css\General\Variables.css" />
-    <Content Include="App\Generate\Css\General\Variables2.css" />
     <Content Include="App\Generate\Css\Home\Home.css" />
     <Content Include="App\Generate\Css\Loisir\Loisir.css" />
     <Content Include="App\Generate\Css\Matrice\Matrice.css" />
@@ -149,6 +167,7 @@
     <Content Include="Gulpfile.js" />
     <Content Include="index.html" />
     <Content Include="Library\angular-animate.min.js" />
+    <Content Include="Library\angular-modal-service.min.js" />
     <Content Include="Library\angular-ui-router.js" />
     <Content Include="Library\angular.min.js" />
     <Content Include="Library\bootstrap.min.css" />
@@ -162,6 +181,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\Logging.cs" />
+    <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
@@ -191,6 +211,9 @@
     <Content Include="App\Matrice\Matrice.scss" />
     <Content Include="App\General\StyleSheet.scss" />
     <None Include=".bin\node.cmd" />
+    <Content Include="Metadata\deploymentTemplates\apiappconfig.azureresource.json" />
+    <Content Include="apiapp.json" />
+    <None Include="Properties\PublishProfiles\Test.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
