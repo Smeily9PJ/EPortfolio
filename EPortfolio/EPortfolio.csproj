@@ -139,7 +139,7 @@
     <Content Include="App\Experience\Professionel\TIME.html" />
     <Content Include="App\Experience\Professionel\TRAVAUX.html" />
     <Content Include="App\Experience\Professionel\VueFrais.html" />
-    <Content Include="App\General\Menu.js" />
+    <Content Include="App\General\Main.js" />
     <Content Include="App\PopUp\PopUp.html" />
     <Content Include="App\General\Template.html" />
     <Content Include="App\Generate\Css\Competence\Competence.css" />
@@ -183,6 +183,7 @@
     <Compile Include="App_Start\Logging.cs" />
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\MainController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\SkillsController.cs" />
@@ -193,6 +194,7 @@
     <Compile Include="Models\Skill.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rules\MainRules.cs" />
     <Compile Include="Rules\ContactRules.cs" />
     <Compile Include="Rules\SkillsRules.cs" />
   </ItemGroup>

@@ -19,20 +19,18 @@
     <script src="Library/ui-bootstrap-tpls-2.5.0.min.js"></script>
 
     <!------------------Developpemnt------------------------>
-
     <!--build:js scripts.min.js -->
     <script src="Route.js"></script>
     <script src="app.js"></script>
+    <script src="App/General/Main.js"></script>
     <script src="App/Competence/Competence.js"></script>
     <script src="App/Contact/Contact.js"></script>
     <script src="App/Experience/Experience.js"></script>
-    <script src="App/General/Menu.js"></script>
     <script src="App/Home/Home.js"></script>
     <script src="App/Loisir/Loisir.js"></script>
     <script src="App/Matrice/Matrice.js"></script>
     <script src="App/PopUp/PopUp.js"></script>
     <!-- endbuild -->
-
     <!--build:css styles.min.css-->
     <link href="App/Generate/Css/Competence/Competence.css" rel="stylesheet" type="text/css" />
     <link href="App/Generate/Css/Contact/Contact.css" rel="stylesheet" type="text/css" />
@@ -55,8 +53,8 @@
         })
     </script>
 </head>
-<body>
-    <div ng-controller="MenuController">
+<body ng-controller="MainController">
+    <div ng-if="Maintenance == '0'">
         <div class="header">
             <div class="page-header">
                 <h1>E-Portfolio <small>Julie Pelissou</small></h1>
@@ -66,7 +64,7 @@
             </div>-->
         </div>
         <div class="version">
-            <p>Version : {{Menu.Version}}</p>
+            <p>Version : {{Version}}</p>
         </div>
         <div class="body" ng-class="{'rotate' : rotate == true, '' : rotate == false}" ng-mousedown="Rotate = true" ng-mouseup="Rotate = false">
             <!------------------
@@ -99,7 +97,6 @@
                 </div>
             </div>
 
-
             <!------------------
                 Boutons fixes
             ------------------->
@@ -113,6 +110,8 @@
             <button type="button" class="btn btn-default button-fixe button-contact" ng-click="GoContact()">
                 <span class="glyphicon glyphicon-envelope"></span><span>Contactez-moi</span>
             </button>
+
+
             <!------------------
                 Contenu principal de la page
             ------------------->
@@ -122,6 +121,11 @@
             </main>
 
         </div>
+    </div>
+    <div ng-if="Maintenance == '1'" class="maintenance">
+        <p>
+            Le site sera bientôt disponible =^.^=
+        </p>
     </div>
 </body>
 </html>

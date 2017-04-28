@@ -10,8 +10,10 @@
                       $controllerProvider.allowGlobals();
                   }
     ])
-    .config(Route)
-    .controller('MenuController', MenuController)
+    .config(Route);
+
+    angular
+    .controller('MainController', MainController)
     .controller('HomeController', HomeController)
     .controller('PopUpController', PopUpController)
     .controller('MatriceController', MatriceController)
