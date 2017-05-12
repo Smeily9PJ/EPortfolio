@@ -4,21 +4,20 @@
     'use strict';
 
     // Init Angular
-    angular.module('app', ['ui.router', 'ngAnimate', 'ngSanitize', 'ui.bootstrap', 'angularModalService'])
-    .config(['$controllerProvider',
+    var ang = angular.module('App', ['ui.router', 'ngAnimate', 'ngSanitize', 'ui.bootstrap', 'angularModalService']);
+
+    ang.config(Route);
+    ang.config(['$controllerProvider',
                   function ($controllerProvider) {
                       $controllerProvider.allowGlobals();
                   }
-    ])
-    .config(Route);
-
-    angular
-    .controller('MainController', MainController)
-    .controller('HomeController', HomeController)
-    .controller('PopUpController', PopUpController)
-    .controller('MatriceController', MatriceController)
-    .controller('CompetenceController', CompetenceController)
-    .controller('ExperienceController', ExperienceController)
-    .controller('LoisirController', LoisirController)
-    .controller('ContactController', ContactController);
+    ]);
+    ang.controller('MainController', MainController);
+    ang.controller('HomeController', HomeController);
+    ang.controller('PopUpController', PopUpController);
+    ang.controller('MatriceController', MatriceController);
+    ang.controller('CompetenceController', CompetenceController);
+    ang.controller('ExperienceController', ExperienceController);
+    ang.controller('LoisirController', LoisirController);
+    ang.controller('ContactController', ContactController);
 })();
