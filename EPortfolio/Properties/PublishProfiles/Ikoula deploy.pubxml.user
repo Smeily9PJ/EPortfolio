@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Ce fichier est utilisé par le processus de publication/package de votre projet Web. Vous pouvez personnaliser le comportement de ce processus
+en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, consultez la page http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://juliepelissou.fr/inetpub/wwwroot/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="apiapp.json">
+      <publishTime>04/28/2017 22:01:45</publishTime>
+    </File>
+    <File Include="App.js">
+      <publishTime>05/12/2017 12:34:17</publishTime>
+    </File>
+    <File Include="App/Competence/Competence.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Competence/Competence.js">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Competence/Competence.scss">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="App/Competence/Humaine/Adaptabilite.html">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="App/Competence/Humaine/Autonomie.html">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="App/Competence/Humaine/Curiosite.html">
+      <publishTime>05/12/2017 12:34:17</publishTime>
+    </File>
+    <File Include="App/Competence/Humaine/Patience.html">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="App/Competence/Humaine/Serieux.html">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="App/Competence/Humaine/Sociabilite.html">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="App/Competence/Technique/AngularJS.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Competence/Technique/BDD.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Competence/Technique/Chiffrage.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Competence/Technique/CSharp.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Competence/Technique/CSS.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Competence/Technique/Documentation.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Competence/Technique/HTML.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Competence/Technique/JsTs.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Competence/Technique/Log4Net.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Competence/Technique/MethodesAGILE.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Competence/Technique/PlanDeTests.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Competence/Technique/WebApi.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Contact/Contact.html">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="App/Contact/Contact.js">
+      <publishTime>05/12/2017 10:49:23</publishTime>
+    </File>
+    <File Include="App/Contact/Contact.scss">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="App/Experience/Etudiant/CheckYourSMILE.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Experience/Etudiant/MeetingTracker.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Experience/Experience.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Experience/Experience.js">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Experience/Experience.scss">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Experience/Professionel/ContratEngagement.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Experience/Professionel/EVERSUITE.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Experience/Professionel/GestionTags.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Experience/Professionel/MGM.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Experience/Professionel/TIME.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Experience/Professionel/TRAVAUX.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Experience/Professionel/VueFrais.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/General/CollapseCustom.scss">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/General/Main.js">
+      <publishTime>04/28/2017 22:01:45</publishTime>
+    </File>
+    <File Include="App/General/NavBarCustom.scss">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/General/StyleSheet.scss">
+      <publishTime>04/28/2017 22:01:45</publishTime>
+    </File>
+    <File Include="App/General/Template.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/General/Variables.scss">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="App/Generate/Css/Competence/Competence.css">
+      <publishTime>05/12/2017 10:03:03</publishTime>
+    </File>
+    <File Include="App/Generate/Css/Contact/Contact.css">
+      <publishTime>05/12/2017 10:03:03</publishTime>
+    </File>
+    <File Include="App/Generate/Css/Experience/Experience.css">
+      <publishTime>05/12/2017 10:03:03</publishTime>
+    </File>
+    <File Include="App/Generate/Css/General/CollapseCustom.css">
+      <publishTime>05/12/2017 10:03:03</publishTime>
+    </File>
+    <File Include="App/Generate/Css/General/NavBarCustom.css">
+      <publishTime>05/12/2017 10:03:03</publishTime>
+    </File>
+    <File Include="App/Generate/Css/General/StyleSheet.css">
+      <publishTime>05/12/2017 10:03:03</publishTime>
+    </File>
+    <File Include="App/Generate/Css/General/Variables.css">
+      <publishTime>05/12/2017 10:03:03</publishTime>
+    </File>
+    <File Include="App/Generate/Css/Home/Home.css">
+      <publishTime>05/12/2017 10:03:03</publishTime>
+    </File>
+    <File Include="App/Generate/Css/Loisir/Loisir.css">
+      <publishTime>05/12/2017 10:03:03</publishTime>
+    </File>
+    <File Include="App/Generate/Css/Matrice/Matrice.css">
+      <publishTime>05/12/2017 10:03:03</publishTime>
+    </File>
+    <File Include="App/Home/Home.html">
+      <publishTime>04/28/2017 22:01:45</publishTime>
+    </File>
+    <File Include="App/Home/Home.js">
+      <publishTime>04/28/2017 22:01:45</publishTime>
+    </File>
+    <File Include="App/Home/Home.scss">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Loisir/Loisir.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Loisir/Loisir.js">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Loisir/Loisir.scss">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Matrice/Matrice.html">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App/Matrice/Matrice.js">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="App/Matrice/Matrice.scss">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="App/PopUp/PopUp.html">
+      <publishTime>04/28/2017 22:01:45</publishTime>
+    </File>
+    <File Include="App/PopUp/PopUp.js">
+      <publishTime>04/28/2017 22:01:45</publishTime>
+    </File>
+    <File Include="App_Data/Data.xml">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="App_Data/Test.xml">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="assets/images.jpg">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="assets/trait-pinceau-hz.png">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="bin/EPortfolio.dll">
+      <publishTime>05/12/2017 12:39:12</publishTime>
+    </File>
+    <File Include="bin/fr/System.Net.Http.Formatting.resources.dll">
+      <publishTime>01/28/2015 04:02:48</publishTime>
+    </File>
+    <File Include="bin/fr/System.Web.Http.resources.dll">
+      <publishTime>01/28/2015 04:03:00</publishTime>
+    </File>
+    <File Include="bin/fr/System.Web.Http.WebHost.resources.dll">
+      <publishTime>01/28/2015 04:03:52</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Azure.AppService.ApiApps.Service.dll">
+      <publishTime>03/18/2015 17:02:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/05/2012 11:08:46</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/Swashbuckle.Core.dll">
+      <publishTime>02/15/2015 17:57:08</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>09/11/2014 13:32:14</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 04:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 04:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 04:03:46</publishTime>
+    </File>
+    <File Include="bin/WebActivatorEx.dll">
+      <publishTime>11/24/2014 11:18:48</publishTime>
+    </File>
+    <File Include="fonts/Japaneseb.ttf">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="Gulpfile.js">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>05/12/2017 12:34:17</publishTime>
+    </File>
+    <File Include="Library/angular-animate.min.js">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="Library/angular-modal-service.min.js">
+      <publishTime>04/28/2017 22:01:45</publishTime>
+    </File>
+    <File Include="Library/angular-ui-router.js">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="Library/angular.min.js">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="Library/bootstrap.min.css">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="Library/bootstrap.min.js">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="Library/jquery-2.2.3.js">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="Library/require.js">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="Library/titatoggle-dist.css">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="Library/ui-bootstrap-tpls-2.5.0.min.js">
+      <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="Metadata/deploymentTemplates/apiappconfig.azureresource.json">
+      <publishTime>04/28/2017 22:01:45</publishTime>
+    </File>
+    <File Include="package.json">
+      <publishTime>04/28/2017 22:01:46</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/28/2017 22:01:46</publishTime>
+    </File>
+    <File Include="Route.js">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/12/2017 12:39:17</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
