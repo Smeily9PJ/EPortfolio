@@ -1,6 +1,6 @@
 ﻿function Route($stateProvider, $urlRouterProvider) {
     //Set default route
-    $urlRouterProvider.otherwise('/');
+    //$urlRouterProvider;
 
     //Declare states
     $stateProvider
