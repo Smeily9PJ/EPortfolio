@@ -23,7 +23,7 @@
               $scope.Version = "";
           });
     //#endregion Version
-    
+
     //#region Menu
     var Menu = {};
 

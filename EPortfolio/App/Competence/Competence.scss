@@ -103,4 +103,47 @@
         margin-left: 15%;
         margin-top: 70px;
     }
+
+    .fa-coffee {
+    }
+
+    .note-5 {
+        b {
+          background: linear-gradient(to top, $secondary_color 0%, $secondary_color 100%);
+        }
+    }
+
+    .note-4 {
+        b {
+            background: linear-gradient(to top, $secondary_color 70%, $text_color 80%);
+        }
+    }
+    .note-3 {
+        b {
+            background: linear-gradient(to top, $secondary_color 55%, $text_color 65%);
+        }
+    }
+    .note-2 {
+        b {
+            background: linear-gradient(to top, $secondary_color 35%, $text_color 45%);
+        }
+    }
+    
+    .note-1 {
+        b {
+            background: linear-gradient(to top, $secondary_color 20%, $text_color 30%);
+        }
+    }
+
+    .note {
+        b {
+            font-size: 25px;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        i {
+            font-size: 12px;
+        }
+    }
 }

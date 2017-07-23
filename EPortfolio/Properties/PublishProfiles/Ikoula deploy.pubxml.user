@@ -23,43 +23,43 @@ en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, consultez la p
       <publishTime>03/11/2017 17:28:50</publishTime>
     </File>
     <File Include="App/Competence/Competence.scss">
-      <publishTime>03/11/2017 17:45:51</publishTime>
+      <publishTime>07/06/2017 10:34:17</publishTime>
     </File>
     <File Include="App/Competence/Humaine/Adaptabilite.html">
-      <publishTime>03/11/2017 17:45:51</publishTime>
+      <publishTime>07/06/2017 10:23:52</publishTime>
     </File>
     <File Include="App/Competence/Humaine/Autonomie.html">
-      <publishTime>03/11/2017 17:45:51</publishTime>
+      <publishTime>05/21/2017 17:05:42</publishTime>
     </File>
     <File Include="App/Competence/Humaine/Curiosite.html">
-      <publishTime>05/12/2017 12:34:17</publishTime>
+      <publishTime>05/21/2017 17:06:36</publishTime>
     </File>
     <File Include="App/Competence/Humaine/Patience.html">
-      <publishTime>03/11/2017 17:45:51</publishTime>
+      <publishTime>05/21/2017 17:07:57</publishTime>
     </File>
     <File Include="App/Competence/Humaine/Serieux.html">
-      <publishTime>03/11/2017 17:45:51</publishTime>
+      <publishTime>05/21/2017 17:08:29</publishTime>
     </File>
     <File Include="App/Competence/Humaine/Sociabilite.html">
-      <publishTime>03/11/2017 17:45:51</publishTime>
+      <publishTime>05/21/2017 17:09:43</publishTime>
     </File>
     <File Include="App/Competence/Technique/AngularJS.html">
-      <publishTime>03/11/2017 17:28:50</publishTime>
+      <publishTime>05/21/2017 17:10:30</publishTime>
     </File>
     <File Include="App/Competence/Technique/BDD.html">
-      <publishTime>03/11/2017 17:28:50</publishTime>
+      <publishTime>05/21/2017 17:11:22</publishTime>
     </File>
     <File Include="App/Competence/Technique/Chiffrage.html">
-      <publishTime>03/11/2017 17:28:50</publishTime>
+      <publishTime>05/21/2017 17:13:57</publishTime>
     </File>
     <File Include="App/Competence/Technique/CSharp.html">
-      <publishTime>03/11/2017 17:28:50</publishTime>
+      <publishTime>05/21/2017 17:13:17</publishTime>
     </File>
     <File Include="App/Competence/Technique/CSS.html">
-      <publishTime>03/11/2017 17:28:50</publishTime>
+      <publishTime>05/21/2017 17:15:25</publishTime>
     </File>
     <File Include="App/Competence/Technique/Documentation.html">
-      <publishTime>03/11/2017 17:28:50</publishTime>
+      <publishTime>05/21/2017 17:16:22</publishTime>
     </File>
     <File Include="App/Competence/Technique/HTML.html">
       <publishTime>03/11/2017 17:28:50</publishTime>
@@ -94,8 +94,11 @@ en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, consultez la p
     <File Include="App/Experience/Etudiant/MeetingTracker.html">
       <publishTime>03/11/2017 17:28:50</publishTime>
     </File>
+    <File Include="App/Experience/Etudiant/PoussonsEnsemble.html">
+      <publishTime>07/06/2017 16:15:00</publishTime>
+    </File>
     <File Include="App/Experience/Experience.html">
-      <publishTime>03/11/2017 17:28:50</publishTime>
+      <publishTime>07/06/2017 16:15:12</publishTime>
     </File>
     <File Include="App/Experience/Experience.js">
       <publishTime>03/11/2017 17:28:50</publishTime>
@@ -128,13 +131,13 @@ en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, consultez la p
       <publishTime>03/11/2017 17:28:50</publishTime>
     </File>
     <File Include="App/General/Main.js">
-      <publishTime>04/28/2017 22:01:45</publishTime>
+      <publishTime>07/06/2017 15:37:19</publishTime>
     </File>
     <File Include="App/General/NavBarCustom.scss">
-      <publishTime>03/11/2017 17:28:50</publishTime>
+      <publishTime>07/06/2017 10:03:47</publishTime>
     </File>
     <File Include="App/General/StyleSheet.scss">
-      <publishTime>04/28/2017 22:01:45</publishTime>
+      <publishTime>07/06/2017 17:03:44</publishTime>
     </File>
     <File Include="App/General/Template.html">
       <publishTime>03/11/2017 17:28:50</publishTime>
@@ -143,37 +146,37 @@ en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, consultez la p
       <publishTime>03/11/2017 17:45:51</publishTime>
     </File>
     <File Include="App/Generate/Css/Competence/Competence.css">
-      <publishTime>05/12/2017 10:03:03</publishTime>
+      <publishTime>07/06/2017 17:03:44</publishTime>
     </File>
     <File Include="App/Generate/Css/Contact/Contact.css">
-      <publishTime>05/12/2017 10:03:03</publishTime>
+      <publishTime>07/06/2017 17:03:44</publishTime>
     </File>
     <File Include="App/Generate/Css/Experience/Experience.css">
-      <publishTime>05/12/2017 10:03:03</publishTime>
+      <publishTime>07/06/2017 17:03:44</publishTime>
     </File>
     <File Include="App/Generate/Css/General/CollapseCustom.css">
-      <publishTime>05/12/2017 10:03:03</publishTime>
+      <publishTime>07/06/2017 17:03:45</publishTime>
     </File>
     <File Include="App/Generate/Css/General/NavBarCustom.css">
-      <publishTime>05/12/2017 10:03:03</publishTime>
+      <publishTime>07/06/2017 17:03:45</publishTime>
     </File>
     <File Include="App/Generate/Css/General/StyleSheet.css">
-      <publishTime>05/12/2017 10:03:03</publishTime>
+      <publishTime>07/06/2017 17:03:45</publishTime>
     </File>
     <File Include="App/Generate/Css/General/Variables.css">
-      <publishTime>05/12/2017 10:03:03</publishTime>
+      <publishTime>07/06/2017 17:03:45</publishTime>
     </File>
     <File Include="App/Generate/Css/Home/Home.css">
-      <publishTime>05/12/2017 10:03:03</publishTime>
+      <publishTime>07/06/2017 17:03:44</publishTime>
     </File>
     <File Include="App/Generate/Css/Loisir/Loisir.css">
-      <publishTime>05/12/2017 10:03:03</publishTime>
+      <publishTime>07/06/2017 17:03:45</publishTime>
     </File>
     <File Include="App/Generate/Css/Matrice/Matrice.css">
-      <publishTime>05/12/2017 10:03:03</publishTime>
+      <publishTime>07/06/2017 17:03:45</publishTime>
     </File>
     <File Include="App/Home/Home.html">
-      <publishTime>04/28/2017 22:01:45</publishTime>
+      <publishTime>07/06/2017 13:02:02</publishTime>
     </File>
     <File Include="App/Home/Home.js">
       <publishTime>04/28/2017 22:01:45</publishTime>
@@ -194,7 +197,7 @@ en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, consultez la p
       <publishTime>03/11/2017 17:28:50</publishTime>
     </File>
     <File Include="App/Matrice/Matrice.js">
-      <publishTime>03/11/2017 17:45:51</publishTime>
+      <publishTime>07/06/2017 16:22:12</publishTime>
     </File>
     <File Include="App/Matrice/Matrice.scss">
       <publishTime>03/11/2017 17:45:51</publishTime>
@@ -211,20 +214,29 @@ en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, consultez la p
     <File Include="App_Data/Test.xml">
       <publishTime>03/11/2017 17:28:50</publishTime>
     </File>
+    <File Include="assets/CV_20170521.pdf">
+      <publishTime>05/21/2017 15:04:58</publishTime>
+    </File>
+    <File Include="assets/fdTest.PNG">
+      <publishTime>07/06/2017 15:16:19</publishTime>
+    </File>
     <File Include="assets/images.jpg">
       <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="assets/photoMe.jpg">
+      <publishTime>07/06/2017 10:44:14</publishTime>
     </File>
     <File Include="assets/trait-pinceau-hz.png">
       <publishTime>03/11/2017 17:45:51</publishTime>
     </File>
     <File Include="bin/EPortfolio.dll">
-      <publishTime>05/12/2017 12:39:12</publishTime>
+      <publishTime>07/06/2017 17:05:50</publishTime>
     </File>
     <File Include="bin/fr/System.Net.Http.Formatting.resources.dll">
       <publishTime>01/28/2015 04:02:48</publishTime>
     </File>
     <File Include="bin/fr/System.Web.Http.resources.dll">
-      <publishTime>01/28/2015 04:03:00</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/fr/System.Web.Http.WebHost.resources.dll">
       <publishTime>01/28/2015 04:03:52</publishTime>
@@ -239,10 +251,10 @@ en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, consultez la p
       <publishTime>06/15/2015 02:06:24</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
-      <publishTime>01/05/2012 11:08:46</publishTime>
+      <publishTime>05/01/2012 11:08:46</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>08/03/2014 20:33:56</publishTime>
+      <publishTime>03/08/2014 20:33:56</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>06/18/2015 20:19:46</publishTime>
@@ -284,7 +296,7 @@ en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, consultez la p
       <publishTime>02/15/2015 17:57:08</publishTime>
     </File>
     <File Include="bin/System.IdentityModel.Tokens.Jwt.dll">
-      <publishTime>09/11/2014 13:32:14</publishTime>
+      <publishTime>11/09/2014 13:32:14</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>01/28/2015 04:02:42</publishTime>
@@ -298,7 +310,31 @@ en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, consultez la p
     <File Include="bin/WebActivatorEx.dll">
       <publishTime>11/24/2014 11:18:48</publishTime>
     </File>
+    <File Include="fonts/CompleteInHim.ttf">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>05/12/2017 12:34:17</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>05/12/2017 12:34:17</publishTime>
+    </File>
     <File Include="fonts/Japaneseb.ttf">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="fonts/PolenticalNeonBold.ttf">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="fonts/PolenticalNeonBolditalic.ttf">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="fonts/PolenticalNeonItalic.ttf">
+      <publishTime>03/11/2017 17:28:50</publishTime>
+    </File>
+    <File Include="fonts/PolenticalNeonRegular.ttf">
       <publishTime>03/11/2017 17:28:50</publishTime>
     </File>
     <File Include="Global.asax">
@@ -308,7 +344,7 @@ en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, consultez la p
       <publishTime>03/11/2017 17:45:51</publishTime>
     </File>
     <File Include="index.html">
-      <publishTime>05/12/2017 12:34:17</publishTime>
+      <publishTime>07/06/2017 13:16:10</publishTime>
     </File>
     <File Include="Library/angular-animate.min.js">
       <publishTime>03/11/2017 17:45:51</publishTime>
@@ -327,6 +363,117 @@ en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, consultez la p
     </File>
     <File Include="Library/bootstrap.min.js">
       <publishTime>03/11/2017 17:45:51</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/css/font-awesome.css">
+      <publishTime>12/22/2016 21:50:33</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/css/font-awesome.min.css">
+      <publishTime>12/22/2016 21:50:34</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/fonts/fontawesome-webfont.eot">
+      <publishTime>12/22/2016 21:50:33</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/fonts/fontawesome-webfont.svg">
+      <publishTime>12/22/2016 21:50:33</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf">
+      <publishTime>12/22/2016 21:50:33</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/fonts/fontawesome-webfont.woff">
+      <publishTime>12/22/2016 21:50:33</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2">
+      <publishTime>12/22/2016 21:50:33</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/fonts/FontAwesome.otf">
+      <publishTime>12/22/2016 21:50:33</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/HELP-US-OUT.txt">
+      <publishTime>12/22/2016 21:50:33</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/less/animated.less">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/less/bordered-pulled.less">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/less/core.less">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/less/fixed-width.less">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/less/font-awesome.less">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/less/icons.less">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/less/larger.less">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/less/list.less">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/less/mixins.less">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/less/path.less">
+      <publishTime>12/22/2016 21:50:33</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/less/rotated-flipped.less">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/less/screen-reader.less">
+      <publishTime>12/22/2016 21:50:33</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/less/stacked.less">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/less/variables.less">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/scss/font-awesome.scss">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/scss/_animated.scss">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/scss/_bordered-pulled.scss">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/scss/_core.scss">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/scss/_fixed-width.scss">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/scss/_icons.scss">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/scss/_larger.scss">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/scss/_list.scss">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/scss/_mixins.scss">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/scss/_path.scss">
+      <publishTime>12/22/2016 21:50:33</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/scss/_rotated-flipped.scss">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/scss/_screen-reader.scss">
+      <publishTime>12/22/2016 21:50:33</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/scss/_stacked.scss">
+      <publishTime>12/22/2016 21:50:32</publishTime>
+    </File>
+    <File Include="Library/font-awesome-4.7.0/scss/_variables.scss">
+      <publishTime>12/22/2016 21:50:32</publishTime>
     </File>
     <File Include="Library/jquery-2.2.3.js">
       <publishTime>03/11/2017 17:28:50</publishTime>
@@ -353,7 +500,7 @@ en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, consultez la p
       <publishTime>03/11/2017 17:28:50</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/12/2017 12:39:17</publishTime>
+      <publishTime>07/06/2017 17:06:26</publishTime>
     </File>
   </ItemGroup>
 </Project>

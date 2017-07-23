@@ -23,10 +23,22 @@
         Nom: "EVERSUITE",
         Lien: "EVERSUITE",
         Type: 'P'
-    }, {
+    },  {
         Nom: "Gestion des tags",
         Lien: "GestionTags",
         Type: 'P'
+    }, {
+        Nom: "TED X",
+        Lien: "TEDX",
+        Type: 'E'
+    }, {
+        Nom: "Gestion d'entreprise",
+        Lien: "GestionEntreprise",
+        Type: 'E'
+    }, {
+        Nom: "Poussons ensemble",
+        Lien: "PoussonsEnsemble",
+        Type: 'E'
     }, {
         Nom: "Meeting Tracker",
         Lien: "MeetingTracker",
@@ -98,24 +110,24 @@
     }
     ];
     var contenu = [
-        [1, 1, 1, 1, 1, 0, 0, 0, 0],//adaptabilite
-        [1, 1, 1, 1, 1, 1, 1, 0, 0],//autonomie
-        [1, 1, 1, 1, 1, 0, 1, 1, 1],//curiosite
-        [0, 0, 0, 0, 0, 0, 0, 1, 1],//patience
-        [1, 1, 1, 1, 1, 1, 1, 1, 1],//sérieux
-        [1, 1, 1, 1, 1, 1, 0, 0, 0],//sociabilité
-        [1, 1, 1, 0, 0, 0, 0, 0, 0],//angularJS
-        [1, 1, 1, 1, 1, 0, 0, 1, 1],//bdd
-        [1, 1, 1, 1, 1, 0, 0, 0, 0],//chiffrage
-        [1, 1, 1, 1, 1, 0, 0, 0, 0],//csharp
-        [1, 1, 1, 0, 0, 0, 0, 1, 1],//css
-        [1, 1, 1, 1, 1, 1, 1, 1, 1],//doc
-        [1, 1, 1, 0, 0, 0, 0, 1, 1],//html
-        [1, 1, 1, 0, 0, 0, 0, 1, 1],//js
-        [1, 1, 1, 1, 1, 0, 0, 0, 0],//log4net
-        [0, 0, 0, 0, 0, 0, 0, 1, 0],//agile
-        [1, 1, 1, 1, 1, 1, 0, 1, 1],//tests
-        [1, 1, 1, 0, 0, 0, 0, 0, 0]//webapi
+        [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0],//adaptabilite
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],//autonomie
+        [1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1],//curiosite
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1],//patience
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],//sérieux
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],//sociabilité
+        [1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0],//angularJS
+        [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1],//bdd
+        [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0],//chiffrage
+        [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0],//csharp
+        [1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1],//css
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],//doc
+        [1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1],//html
+        [1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1],//js
+        [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0],//log4net
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0],//agile
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1],//tests
+        [1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0]//webapi
     ];
 
     $scope.Projets = projets;

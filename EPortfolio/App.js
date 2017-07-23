@@ -4,8 +4,8 @@
     'use strict';
 
     // Init Angular
-    var ang = angular.module('App', ['ui.router', 'ngAnimate', 'ngSanitize', 'ui.bootstrap', 'angularModalService']);
-
+   // var ang = angular.module('App', ['ui.router', 'ngAnimate', 'ngSanitize', 'ui.bootstrap', 'angularModalService']);
+    var ang = angular.module('App', ['ui.router', 'ngAnimate', 'ngSanitize', 'ui.bootstrap']);
     ang.config(Route);
     ang.config(['$controllerProvider',
                   function ($controllerProvider) {

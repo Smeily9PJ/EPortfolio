@@ -1,4 +1,4 @@
-﻿function HomeController($scope, $state, ModalService) {
+﻿function HomeController($scope, $state) {
     $scope.Menu.Change(0);
    /* $scope.Diplomes = null;
     var uri = 'api/skills';
@@ -10,7 +10,7 @@
 
     $scope.goFavoryProject = function () { $state.go("Experience.detail", { refSwitch: 'P', refExperience: 'TIME' }); };
 
-    $scope.OpenModal = function () {
+   // $scope.OpenModal = function () {
        /* $uibModal.open({
             animation: true,
             transclude: false,
@@ -23,7 +23,7 @@
             templateUrl: 'App/PopUp/PopUp.html',
             controller: 'PopUpController'
         });*/
-        ModalService.showModal({
+        /*ModalService.showModal({
             templateUrl: 'App/PopUp/PopUp.html',
             controller: "PopUpController"
         }).then(function(modal) {
@@ -31,7 +31,7 @@
             modal.close.then(function(result) {
                 //$scope.message = "You said " + result;
             });
-        });
-    };
+        });*/
+    //};
 }
 

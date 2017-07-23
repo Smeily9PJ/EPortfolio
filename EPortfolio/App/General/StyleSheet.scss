@@ -88,6 +88,8 @@ body {
     font-family: 'Arial';
     font-size: 15px;
     background-color: $background_color;
+    //background-image: url(./../../../../assets/fdTest.PNG);
+    background-repeat: repeat;
     color: $text_color;
     /* Before menu, bandeau */
     .header {
@@ -101,6 +103,20 @@ body {
             width: 100px;
             height: 100px;
             margin: auto;
+        }
+
+        .CV {
+            float: right;
+            padding-top: 5px;
+            font-size: 38px;
+            width: 100px;
+            height: 100px;
+            margin: auto;
+
+            &:hover {
+                color: $text_color_hover;
+                cursor: pointer;
+            }
         }
 
         .page-header {
@@ -178,6 +194,12 @@ body {
         }
     }
 
+    .little-letter {
+        p::first-letter {
+            font-size: 15px !important;
+        }
+    }
+
     .detail {
         height: 25px;
         padding: 2px;
@@ -196,7 +218,7 @@ body {
 }
 
 /* Boutons fixes */
-.glyphicon {
+.glyphicon, .fa {
     margin-right: 10px;
 }
 
@@ -277,6 +299,27 @@ body {
         background-color: $background_color_body;
         text-align: center;
         padding: 10px;
-        margin-top:10%;
+        margin-top: 10%;
+    }
+}
+
+
+.encart {
+    width: 90%;
+    margin: auto;
+
+    div:nth-child(1) {
+        width: 120px;
+        background-color: $background_color;
+        color : $secondary_color;
+        text-align: center;
+    }
+
+    div:nth-child(2) {
+        border: 1px solid $background_color;
+        background-color: $background_color_body;
+        text-align: center;
+        border-radius: 0px 5px 5px 5px;
+        padding: 5px;
     }
 }

@@ -1,21 +1,22 @@
 ﻿<html lang="fr" ng-app="App">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>E-Portfolio/Julie Pélissou </title>
+    <title>E-Portfolio/Julie Pélissou - EN COURS</title>
     <meta charset="utf-8" />
 
     <!----------------------Library------------------------->
 
     <link href="Library/bootstrap.min.css" rel="stylesheet">
     <link href="Library/titatoggle-dist.css" rel="stylesheet">
+    <link rel="stylesheet" href="Library/font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="Library/jquery-2.2.3.js"></script>
     <script src="Library/bootstrap.min.js"></script>
     <script src="Library/require.js"></script>
     <script src="Library/angular.min.js"></script>
     <script src="Library/angular-ui-router.js"></script>
     <script src="Library/angular-animate.min.js"></script>
-     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-sanitize.js"></script>
-    <script src="https://rawgit.com/dwmkerr/angular-modal-service/master/dst/angular-modal-service.js"></script>
+     <script src="Library/angular-sanitize.js"></script>
+    <!--<script src="https://rawgit.com/dwmkerr/angular-modal-service/master/dst/angular-modal-service.js"></script>-->
     <script src="Library/ui-bootstrap-tpls-2.5.0.min.js"></script>
 
     <!------------------Developpemnt------------------------>
@@ -54,10 +55,23 @@
     </script>
 </head>
 <body ng-controller="MainController">
+    <div class="alert alert-warning alert-dismissible fade in" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">×</span>
+        </button>
+        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+        Ce site n'a pas encore été porté ni testé sur d'autres navigateurs que Chrome, ni sur téléphone.
+        Veuillez utiliser Chrome si possible.
+    </div>
     <div ng-if="Maintenance == '0'">
         <div class="header">
             <div class="page-header">
                 <h1>E-Portfolio <small>Julie Pelissou</small></h1>
+            </div>
+            <div class="CV">
+                <a href="assets/CV_20170521.pdf" target="_blank">
+                    <b class="glyphicon glyphicon-save-file" data-toggle="tooltip" data-placement="left" title="Cliquez pour récupérer mon CV"></b>
+                </a>
             </div>
             <!--<div class="lampe" ng-click="ChangeStyle()">
                 <b class="glyphicon glyphicon-lamp i-m-here" data-toggle="tooltip" data-placement="left" title="Un design lumineux ?"></b>
