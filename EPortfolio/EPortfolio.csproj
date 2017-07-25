@@ -267,6 +267,7 @@
     <Content Include="fonts\PolenticalNeonRegular.ttf" />
     <Content Include="assets\CV_20170521.pdf" />
     <Content Include="assets\PoussonsEnsemble.pdf" />
+    <Content Include="assets\PoussonsEnsembleDiapo.pdf" />
     <None Include="Properties\PublishProfiles\Ikoula deploy.pubxml" />
     <None Include="Properties\PublishProfiles\Test.pubxml" />
     <None Include="Web.Debug.config">
