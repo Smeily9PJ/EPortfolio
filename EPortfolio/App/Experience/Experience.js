@@ -28,5 +28,4 @@
 
     $scope.GoTo = goTo;
     $scope.EtatAccordeons = etatAccordeons;
-
 }
