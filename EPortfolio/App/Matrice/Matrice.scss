@@ -3,7 +3,7 @@
 
 $height_col_header: 120px;
 $width_row_header: 150px;
-$width_row: 88px;
+$width_row: 120px;
 $height_row: 35px;
 
 .matrice {
@@ -21,7 +21,7 @@ $height_row: 35px;
     #table-2D {
         position: relative;
         padding: 10px;
-        width: 990px;
+        width: 798px;
         height: 403px;
         padding-bottom: 0px;
         padding-top: 0px;
@@ -92,7 +92,8 @@ $height_row: 35px;
         .th-clickable {
             * {
                 margin: auto;
-                writing-mode: vertical-rl !important;
+                //writing-mode: vertical-rl !important;
+                text-align: center;
             }
         }
 

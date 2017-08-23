@@ -146,4 +146,12 @@
             font-size: 12px;
         }
     }
+
+    li a {
+        color : $secondary_color;
+
+        &:hover {
+            text-decoration:underline;
+        }
+    }
 }

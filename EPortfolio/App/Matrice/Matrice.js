@@ -32,14 +32,14 @@
         Lien: "TEDX",
         Type: 'E'
     }, {
-        Nom: "Gestion d'entreprise",
-        Lien: "GestionEntreprise",
+        //Nom: "Gestion d'entreprise",
+        //Lien: "GestionEntreprise",
+        //Type: 'E'
+    //}, {
+        Nom: "Poussons ensemble",
+        Lien: "PoussonsEnsemble",
         Type: 'E'
-    //}, {
-    //    Nom: "Poussons ensemble",
-    //    Lien: "PoussonsEnsemble",
-    //    Type: 'E'
-    //}, {
+    }, {
     //    Nom: "Meeting Tracker",
     //    Lien: "MeetingTracker",
     //    Type: 'E'
