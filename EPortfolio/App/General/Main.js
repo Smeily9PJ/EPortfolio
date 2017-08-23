@@ -42,17 +42,17 @@
             Name: "Compétences",
             Href: "competence",
             Active: false
-        },
-        {
+        } /*,
+       {
             Name: "Activités extra-pro",
             Href: "loisir",
             Active: false
-        },
-        {
+        },*/
+       /* {
             Name: "Contact",
             Href: "contact",
             Active: false
-        }
+        }*/
     ];
     Menu.Items = items;
 

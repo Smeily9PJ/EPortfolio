@@ -85,8 +85,8 @@
                 Menus/Onglets
             ------------------->
             <!-- Menu format onglets-->
-            <div class="row menu-onglet">
-                <div class="col-md-8 col-md-offset-2">
+            <div class="menu-onglet">
+                <div class="">
                     <ul class="custom-bar nav nav-tabs nav-justified">
                         <li ng-repeat="menuItem in Menu.Items"
                             ng-class="{
@@ -100,16 +100,16 @@
             </div>
 
             <!-- Menu format button (si écran trop petit pour les onglets) -->
-            <div class="menu-button" ng-click="Menu.AfficherMenuSpecial = !Menu.AfficherMenuSpecial">
+            <!--<div class="menu-button" ng-click="Menu.AfficherMenuSpecial = !Menu.AfficherMenuSpecial">
                 <div><i class="glyphicon glyphicon-th-list"></i></div>
-            </div>
+            </div>-->
 
             <!-- Menu affiché au clic sur le bouton -->
-            <div ng-if="Menu.AfficherMenuSpecial == true">
+            <!--<div ng-if="Menu.AfficherMenuSpecial == true">
                 <div class="menu-button-element" ng-repeat="menuItem in Menu.Items">
                     <a id="link-{{menuItem.Href}}" ng-click="Menu.Change($index)" href="#/{{menuItem.Href}}"><b>{{menuItem.Name}}</b></a>
                 </div>
-            </div>
+            </div>-->
 
             <!------------------
                 Boutons fixes

@@ -50,7 +50,13 @@ a {
 }
 
 .custom-bar {
+    margin: auto;
+    width : 450px !important;
     margin-top: -27px;
+
+    li {
+        width : 150px;
+    }
 
     a {
         padding-top: 10px;
@@ -71,7 +77,7 @@ a {
 
 
 // Pour les écrans trop petits pour afficher la page "normalement"
-@media all and (max-width:770px) {
+/*@media all and (max-width:770px) {
     .row {
         padding-left: 0px !important;
         padding-right: 0px !important;
@@ -131,4 +137,4 @@ a {
             }
         }
     }
-}
+}*/

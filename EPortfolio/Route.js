@@ -1,12 +1,12 @@
 ﻿function Route($stateProvider, $urlRouterProvider) {
     //Set default route
-    //$urlRouterProvider;
+    $urlRouterProvider.otherwise('/');
 
     //Declare states
     $stateProvider
       .state('home', {
           url: '/',
-          templateUrl: 'App/Home/home.html',
+          templateUrl: 'App/Home/Home.html',
           controller: HomeController
       })
       .state('matrice', {
@@ -34,11 +34,11 @@
           templateUrl: 'App/Competence/Competence.html',
           controller: CompetenceController
       })
-      .state('loisir', {
+     /* .state('loisir', {
           url: '/loisir',
           templateUrl: 'App/Loisir/Loisir.html',
           controller: LoisirController
-      })
+      })*/
       .state('contact', {
           url: '/contact',
           templateUrl: 'App/Contact/Contact.html',
