@@ -75,6 +75,9 @@
         Nom: "AngularJS",
         Lien: "AngularJS"
     }, {
+        Nom: "Architecture",
+        Lien: "Archi"
+    }, {
         Nom: "Base de données",
         Lien: "BDD"
     }, {
@@ -93,9 +96,15 @@
         Nom: "HTML",
         Lien: "HTML"
     }, {
-        Nom: "Javascript/Typescript",
+        Nom: "Type/JavaScript",
         Lien: "JsTs"
     }, {
+        Nom: "Recherche",
+        Lien: "RD"
+    }, {
+        Nom: "Web Api",
+        Lien: "WebApi"
+    }
     //    Nom: "Log4Net",
     //    Lien: "Log4Net"
     //}, {
@@ -105,9 +114,6 @@
     //    Nom: "Plan de tests",
     //    Lien: "PlanDeTests"
     //}, {
-        Nom: "Web Api",
-        Lien: "WebApi"
-    }
     ];
     var contenu = [
         // TIME COTNRAT VF      TED ENS
@@ -118,6 +124,7 @@
         [1, 1, 1, /*1, 1, 1, 1,*/ 1, 1/*, 1, 1, 1*/],//sérieux
         [1, 1, 1, /*1, 1, 1, 1,*/ 1, 1/*, 0, 0, 0*/],//sociabilité
         [1, 1, 1, /*0, 0, 0, 1,*/ 0, 0/*, 0, 0, 0*/],//angularJS
+        [1, 1, 1, /*1, 1, 0, 1,*/ 0, 0/*, 0, 1, 1*/],//archi
         [1, 1, 1, /*1, 1, 0, 1,*/ 0, 0/*, 0, 1, 1*/],//bdd
       //[1, 1, 1, /*1, 1, 0, 1,*/ 1, 1/*, 0, 0, 0*/],//chiffrage
         [1, 1, 1, /*1, 1, 0, 1,*/ 0, 0/*, 0, 0, 0*/],//csharp
@@ -127,7 +134,8 @@
         [1, 1, 1, /*0, 0, 0, 1,*/ 0, 0/*, 0, 1, 1*/],//js
       //[1, 1, 1, /*1, 1, 0, 1,*/ 1, 1/*, 0, 0, 0*/],//log4net
       //[0, 0, 0, /*0, 0, 0, 1,*/ 1, 1/*, 0, 1, 0*/],//agile
-      //[1, 1, 1, /*1, 1, 1, 1,*/ 1, 1/*, 0, 1, 1*/],//tests
+        //[1, 1, 1, /*1, 1, 1, 1,*/ 1, 1/*, 0, 1, 1*/],//tests
+        [1, 1, 1, /*0, 0, 0, 1,*/ 0, 0/*, 0, 0, 0*/],//R&D
         [1, 1, 1, /*0, 0, 0, 1,*/ 0, 0/*, 0, 0, 0*/]//webapi
     ];
 

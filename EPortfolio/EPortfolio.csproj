@@ -125,6 +125,8 @@
     <Content Include="App\Competence\Technique\Log4Net.html" />
     <Content Include="App\Competence\Technique\MethodesAGILE.html" />
     <Content Include="App\Competence\Technique\PlanDeTests.html" />
+    <Content Include="App\Competence\Technique\ArchitectureLogicielle.html" />
+    <Content Include="App\Competence\Technique\RechercheEtDeveloppement.html" />
     <Content Include="App\Competence\Technique\WebApi.html" />
     <Content Include="App\Contact\Contact.html" />
     <Content Include="App\Contact\Contact.js" />
